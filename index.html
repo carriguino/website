@@ -31,13 +31,13 @@
       color: white;
       text-decoration:none;
     }
-    .myImg {
+    #myImg {
       border-radius: 5px;
       cursor: pointer;
       transition: 0.3s;
     }
 
-    .myImg:hover {opacity: 0.7;}
+    #myImg:hover {opacity: 0.7;}
 
     /* The Modal (background) */
     .modal {
@@ -128,23 +128,16 @@
     
 </head>
 <body>
-    <img class="myImg" src="CaptNaut.PNG" alt= "Captain Nautilus - Commission - 2019" style="width:100%;max-width:200px">
+    <img id="myImg" src="CaptNaut.PNG" alt= "Captain Nautilus - Commission - 2019" style="width:100%;max-width:200px">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-    <img class="myImg" src="smile.PNG" alt= "Smile! - Personal - 2018" style="width:100%;max-width:200px">
+    <img id="myImg" src="smile.PNG" alt= "Smile! - Personal - 2018" style="width:100%;max-width:200px">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-    <img class="myImg" src="TabithaStand.PNG" alt= "Tabitha - Personal - 2019" style="width:100%;max-width:200px">
+    <img id="myImg" src="TabithaStand.PNG" alt= "Tabitha - Personal - 2019" style="width:100%;max-width:200px">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <div id="myModal" class="modal">
-
-  <!-- The Close Button -->
-  <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
-
-  <!-- Modal Content (The Image) -->
+  <span class="close">&times;</span>
   <img class="modal-content" id="img01">
-
-  <!-- Modal Caption (Image Text) -->
   <div id="caption"></div>
 </div>
 
@@ -155,15 +148,13 @@
 var modal = document.getElementById("myModal");
 
 // Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = $('.myImg');
-var modalImg = $("#img01");
+var img = document.getElementById("myImg");
+var modalImg = document.getElementById("img01");
 var captionText = document.getElementById("caption");
-$('.myImg').click(function(){
-    modal.style.display = "block";
-    var newSrc = this.src;
-    modalImg.attr('src', newSrc);
-    captionText.innerHTML = this.alt;
-});
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
 }
 
 // Get the <span> element that closes the modal
