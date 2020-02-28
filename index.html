@@ -31,13 +31,13 @@
       color: white;
       text-decoration:none;
     }
-    #myImg {
+    .myImg {
       border-radius: 5px;
       cursor: pointer;
       transition: 0.3s;
     }
 
-    #myImg:hover {opacity: 0.7;}
+    .myImg:hover {opacity: 0.7;}
 
     /* The Modal (background) */
     .modal {
@@ -128,11 +128,11 @@
     
 </head>
 <body>
-    <img id="myImg" src="CaptNaut.PNG" alt= "Captain Nautilus - Commission - 2019" style="width:100%;max-width:200px">
+    <img class="myImg" src="CaptNaut.PNG" alt= "Captain Nautilus - Commission - 2019" style="width:100%;max-width:200px">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-    <img id="myImg" src="smile.PNG" alt= "Smile! - Personal - 2018" style="width:100%;max-width:200px">
+    <img class="myImg" src="smile.PNG" alt= "Smile! - Personal - 2018" style="width:100%;max-width:200px">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-    <img id="myImg" src="TabithaStand.PNG" alt= "Tabitha - Personal - 2019" style="width:100%;max-width:200px">
+    <img class="myImg" src="TabithaStand.PNG" alt= "Tabitha - Personal - 2019" style="width:100%;max-width:200px">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <div id="myModal" class="modal">
@@ -146,23 +146,27 @@
                    
 // Get the modal
 var modal = document.getElementById("myModal");
+var i;
 
-// Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = document.getElementById("myImg");
+var img = document.getElementsByClassName("myImg");
 var modalImg = document.getElementById("img01");
-var captionText = document.getElementById("caption");
-img.onclick = function(){
-  modal.style.display = "block";
-  modalImg.src = this.src;
-  captionText.innerHTML = this.alt;
+
+ for(i=0;i< img.length;i++)
+   {    
+    img[i].onclick = function(){
+
+    modal.style.display = "block";
+       modalImg.src = this.src;
+
+ }
 }
-  
-// Get the <span> element that closes the modal
+
 var span = document.getElementsByClassName("close")[0];
 
-// When the user clicks on <span> (x), close the modal
+
 span.onclick = function() { 
-  modal.style.display = "none";
+   modal.style.display = "none";
+}
 }
 </script>
 </html>
