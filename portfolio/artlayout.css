@@ -4,7 +4,6 @@
     flex-wrap:wrap;
     justify-content: center;
     align-items: center;
-    outline: 5px solid black;
   }
   
   .insublink{
@@ -42,7 +41,7 @@
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
-  margin:15px;
+  margin:10px;
 }
 
 .myImg:hover {opacity: 0.7;}
