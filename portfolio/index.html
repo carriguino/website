@@ -1,115 +1,12 @@
 <!DOCTYPE html>
 <html>
+<head>
 
-<head><link rel="stylesheet" type="text/css" href="../homepagestyle.css">
-<style>
-  div.favorites{
-  display: flex;
-  flex-wrap:wrap;
-  justify-content: center;
-  width:600px;
-  height:150px;
-  margin: 25px;
-  left:0px;
-  position:relative;
-}
-div.favimgs{
-  display: flex;
-  flex-wrap:wrap;
-  justify-content: center;
-  align-items: center;
-  width:400px;
-  height:auto;
-  margin: 25px;
-  left:100px;
-  position:relative;
-}
+<link rel="stylesheet" type="text/css" href="artlayout.css">
+<link rel="stylesheet" type="text/css" href="../homepagestyle.css">
+<script src="modal.js"></script></script>
 
-.myImg {
-  border-radius: 5px;
-  cursor: pointer;
-  transition: 0.3s;
-  margin:10px;
-  box-shadow: 0 0 5px black;
-}
-
-.myImg:hover {opacity: 0.7;}
-
-.modal {
-  display: none; 
-  position: fixed; 
-  z-index: 1; 
-  padding-top: 100px; 
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%; 
-  overflow: auto; 
-  background-color: rgb(0,0,0); 
-  background-color: rgba(0,0,0,0.9);
-}
-
-.modal-content {
-  margin: auto;
-  display: block;
-  height: 200%;
-  max-height:700px;
-}
-
-#caption {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
-  text-align: center;
-  color: #ccc;
-  padding: 10px 0;
-  height: 150px;
-}
-
-
-.modal-content, #caption {
-  -webkit-animation-name: zoom;
-  -webkit-animation-duration: 0.6s;
-  animation-name: zoom;
-  animation-duration: 0.3s;
-}
-
-@-webkit-keyframes zoom {
-  from {-webkit-transform:scale(0)}
-  to {-webkit-transform:scale(1)}
-}
-
-@keyframes zoom {
-  from {transform:scale(0)}
-  to {transform:scale(1)}
-}
-
-
-.close {
-  position: absolute;
-  top: 15px;
-  right: 35px;
-  color: #f1f1f1;
-  font-size: 40px;
-  font-weight: bold;
-  transition: 0.3s;
-}
-
-.close:hover,
-.close:focus {
-  color: #bbb;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-
-@media only screen and (max-width: 700px){
-  .modal-content {
-      width: 100%;
-    }
-  }
-</style>
+<style></style>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title> Carri's Artsite! </title>
@@ -153,26 +50,4 @@ div.favimgs{
         
       </div>
 
-<script>
-// modal code adapted from w3Schools and jquery code from user ab29007 on StackOverflow
-
-
-var modal = document.getElementById('myModal');
-
-var img = $('.myImg');
-var modalImg = $("#img01");
-var captionText = document.getElementById("caption");
-$('.myImg').click(function(){
-  modal.style.display = "block";
-  var newSrc = this.src;
-  modalImg.attr('src', newSrc);
-  captionText.innerHTML = this.alt;
-});
-
-var span = document.getElementsByClassName("modal")[0];
-
-span.onclick = function() {
-modal.style.display = "none";
-}
-</script>
 </html>
