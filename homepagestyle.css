@@ -1,70 +1,91 @@
-    body {
-      background: #eaedfc;
-    }
-    .head{
-     text-align:center;
-     font-size:250%;
-     font-family: "impact";
-    }
-    .subheader{
-     text-align:center;
-     font-size:150%;
-     font-family:"impact";
-    }
-     .subtitle{
-     text-align:center;
-     font-size:100%;
-     font-family:"cambria";
-    }
-    .button{
-      background-color:#f44336;
-      padding:15px 25px;
-      text-align:center;
-      margin: 10px;
-      padding:15px 25px;
-      display:inline-block;
-      color:white;
-      text-decoration:none;
-    }
-    
-    .centerbuttonp
-    {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-    
-    .button:hover {
-      opacity: 0.7; 
-    }
-    .subbutton{
-      background-color:#E8736A;
-      padding:7px 15px;
-      text-align:center;
-      margin:auto;
-      width: 70px;
-      display:inline-block;
-      color:white;
-      text-decoration:none;
-    }
-    .subbutton:hover{
-      opacity: 0.7; 
-    }
-    .sublink{
-      background-color:darkgrey;
-      padding: 5px 5px;
-      text-align:center;
-      display: inline-block;
-      color: white;
-      text-decoration:none;
-    }
-    
-    div.centertext
-    {
-      position:relative;
-      
-    }
-    div.social
-    {
-      width:350px;
-    }
+ body{
+  height: auto;
+  position:relative;
+  background-color: rgba(140, 180, 180,1);
+  background-image: linear-gradient(rgba(61, 126, 183,1),rgba(140, 180, 180,0));
+}
+.head{
+  text-align:center;
+  color:white;
+  font-size:600%;
+  font-family: "impact";
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -7px black;
+}
+.subheader{
+  text-align:center;
+  font-size:150%;
+  font-family:"cambria";
+  color: black;
+}
+.subtitle{
+  text-align:center;
+  font-size:100%;
+  font-family:"cambria";
+  color: black;
+}
+.button{
+  background-color:white;
+  padding:25px 35px;
+  text-align:center;
+  margin: 10px;
+  display:inline-block;
+  color:black;
+  text-decoration:none;
+  box-shadow: 0px 0 5px black;
+  font-size:200%;
+  font-family:"cambria";
+}
+
+div.centerbuttonp
+{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  align-items: center;
+  width:1000px;
+  height:auto;
+  margin:auto;
+}
+
+.button:hover {
+  box-shadow: 0 0 10px black;
+}
+.subbutton{
+  background-color:#E8736A;
+  padding:7px 15px;
+  text-align:center;
+  margin:auto;
+  width: 70px;
+  display:inline-block;
+  color:white;
+  text-decoration:none;
+}
+.subbutton:hover{
+  opacity: 0.7; 
+}
+.sublink{
+  background-color:white;
+  padding: 5px 5px;
+  text-align:center;
+  display: inline-block;
+  color: black;
+  text-decoration:none;
+}
+
+div.centertext
+{
+  position:relative;
+  height:50px;
+}
+div.social
+{
+  width:350px;
+  position:relative;
+  left:100px;
+}
+
+div.sociallinks
+{
+  box-shadow: 0px 0px 10px black;
+  background-color:rgba(0,0,0,.5);
+}
