@@ -1,81 +1,30 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
-    <style>
-      
-    body {
-      background: #eaedfc;
-    }
-    .head{
-     text-align:center;
-     font-size:250%;
-     font-family: "impact";
-    }
-    .subheader{
-     text-align:center;
-     font-size:150%;
-     font-family:"impact";
-    }
-     .subtitle{
-     text-align:center;
-     font-size:100%;
-     font-family:"cambria";
-    }
-    .button{
-      background-color:#f44336;
-      padding:15px 25px;
-      text-align:center;
-      margin:auto;
-      width: 130px;
-      display:block;
-      color:white;
-      text-decoration:none;
-    }
-    .button:hover {
-      opacity: 0.7; 
-    }
-    .subbutton{
-      background-color:#E8736A;
-      padding:7px 15px;
-      text-align:center;
-      margin:auto;
-      width: 70px;
-      display:inline-block;
-      color:white;
-      text-decoration:none;
-    }
-    .subbutton:hover{
-      opacity: 0.7; 
-    }
-    .sublink{
-      background-color:darkgrey;
-      padding: 5px 5px;
-      text-align:center;
-      display: inline-block;
-      color: white;
-      text-decoration:none;
-    }
-    </style>
-    <meta charset="utf-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | Pop n' Pow</title>
-    <link rel="shortcut icon" href="TemplateData/favicon.ico">
-    <link rel="stylesheet" href="TemplateData/style.css">
-    <script src="TemplateData/UnityProgress.js"></script>
-    <script src="Build/UnityLoader.js"></script>
-    <script>
-      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/New folder (2).json", {onProgress: UnityProgress});
-    </script>
-  </head>
-  <body>
-    left click / z : punch
-    WASD or Arrows: move
-    <div class="webgl-content">
-      <div id="unityContainer" style="width: 960px; height: 600px"></div>
-      <div class="footer">
-        <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
-        <div class="title">Pop n' Pow</div>
-      </div>
-    </div>
-  </body>
+<head>
+<style></style>
+
+<link rel="stylesheet" type="text/css" href="../homepagestyle.css">
+
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Unity WebGL Player | Pop n' Pow</title>
+<link rel="shortcut icon" href="TemplateData/favicon.ico">
+<link rel="stylesheet" href="TemplateData/style.css">
+<script src="TemplateData/UnityProgress.js"></script>
+<script src="Build/UnityLoader.js"></script>
+<script>
+  var unityInstance = UnityLoader.instantiate("unityContainer", "Build/New folder (2).json", {onProgress: UnityProgress});
+</script>
+</head>
+<body>
+left click / z : punch
+WASD or Arrows: move
+<div class="webgl-content">
+  <div id="unityContainer" style="width: 960px; height: 600px"></div>
+  <div class="footer">
+    <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+    <div class="title">Pop n' Pow</div>
+  </div>
+</div>
+</body>
 </html>

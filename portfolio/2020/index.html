@@ -1,148 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <style>
-    body {
-      background: #eaedfc;
-    }
-    .head{
-     text-align:center;
-     font-size:250%;
-     font-family: "impact";
-    }
-    .subheader{
-     text-align:center;
-     font-size:150%;
-     font-family:"impact";
-    }
-     .subtitle{
-     text-align:center;
-     font-size:100%;
-     font-family:"impact";
-    }
-    .button{
-      background-color:#f44336;
-      padding:15px 25px;
-      text-align:center;
-      display:inline-block;
-      color:white;
-      text-decoration:none;
-    }
-    .sublink{
-      background-color:darkgrey;
-      padding: 5px 5px;
-      text-align:center;
-      display: inline-block;
-      color: white;
-      text-decoration:none;
-    }
-    .artlayout
-    {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-    .insublink{
-    width: 80%;
-    max-width: 700px;
-    text-align: center;
-    color: #ccc;
-    padding: 10px 0;
-    height: 150px;
-    }
+<style></style>
 
-.myImg {
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.3s;
-}
+<link rel="stylesheet" type="text/css" href="../artlayout.css">
+<link rel="stylesheet" type="text/css" href="../../homepagestyle.css">
 
-.myImg:hover {opacity: 0.7;}
-
-.modal {
-    display: none; 
-    position: fixed; 
-    z-index: 1; 
-    padding-top: 100px; 
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%; 
-    overflow: auto; 
-    background-color: rgb(0,0,0); 
-    background-color: rgba(0,0,0,0.9);
-}
-
-.modal-content {
-    margin: auto;
-    display: block;
-    height: 100%;
-    max-height:500px;
-}
-
-#caption {
-    margin: auto;
-    display: block;
-    width: 80%;
-    max-width: 700px;
-    text-align: center;
-    color: #ccc;
-    padding: 10px 0;
-    height: 150px;
-}
-
-
-.modal-content, #caption {
-    -webkit-animation-name: zoom;
-    -webkit-animation-duration: 0.6s;
-    animation-name: zoom;
-    animation-duration: 0.3s;
-}
-
-@-webkit-keyframes zoom {
-    from {-webkit-transform:scale(0)}
-    to {-webkit-transform:scale(1)}
-}
-
-@keyframes zoom {
-    from {transform:scale(0)}
-    to {transform:scale(1)}
-}
-
-
-.close {
-    position: absolute;
-    top: 15px;
-    right: 35px;
-    color: #f1f1f1;
-    font-size: 40px;
-    font-weight: bold;
-    transition: 0.3s;
-}
-
-.close:hover,
-.close:focus {
-    color: #bbb;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-
-@media only screen and (max-width: 700px){
-    .modal-content {
-        width: 100%;
-      }
-    }
-  </style>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title> 2020 Portfolio </title>
 </head>
 <h1 class="head"> My 2020 Portfolio! </h1>
-  <h1 class="subheader"> All of my current works this year!</h1>
-    </n>
-  <h1 class="subtitle">obviously still in progress...</h1>
-    
+<h1 class="subheader"> All of my current works this year!</h1>
+  </n>
+<h1 class="subtitle">obviously still in progress...</h1>
+  
 </head>
 <body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
@@ -178,7 +50,7 @@
 
 <script>
 // modal code adapted from w3Schools and jquery code from user ab29007 on StackOverflow
-                   
+                  
 
 var modal = document.getElementById('myModal');
 
@@ -186,16 +58,16 @@ var img = $('.myImg');
 var modalImg = $("#img01");
 var captionText = document.getElementById("caption");
 $('.myImg').click(function(){
-    modal.style.display = "block";
-    var newSrc = this.src;
-    modalImg.attr('src', newSrc);
-    captionText.innerHTML = this.alt;
+  modal.style.display = "block";
+  var newSrc = this.src;
+  modalImg.attr('src', newSrc);
+  captionText.innerHTML = this.alt;
 });
 
 var span = document.getElementsByClassName("modal")[0];
 
 span.onclick = function() {
-  modal.style.display = "none";
+modal.style.display = "none";
 }
 </script>
 </html>
