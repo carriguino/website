@@ -84,7 +84,6 @@ div.social
   position:relative;
   left:100px;
 }
-
 div.sociallinks
 {
   margin:auto;
@@ -92,4 +91,24 @@ div.sociallinks
   box-shadow: 0px 0px 10px black;
   background-color:rgba(0,0,0,.5);
   border-radius: 10px;
+}
+div.splitleft{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  position:relative;
+  float:left;
+  width:400px;
+  height:auto;
+  left:150px;
+}
+div.splitright{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  position:relative;
+  float:left;
+  width:400px;
+  height:auto;
+  margin-left:50%;
 }
