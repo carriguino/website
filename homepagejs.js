@@ -3,3 +3,5 @@
   var randomIntro = Math.floor(Math.random() * intros.length);
   document.getElementById('introDisplay').innerHTML = intros[randomIntro];
 })(); 
+window.onload = newIntro;
+alert('ok');
