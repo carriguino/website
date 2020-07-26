@@ -72,15 +72,14 @@ div.centerbuttonp
   color: black;
   text-decoration:none;
 }
-
 div.centertext
 {
   position:relative;
   height:80px;
+  margin:auto;
 }
 div.social
 {
-  justify-content:center;
   width:400px;
   position:relative;
   left:100px;
@@ -88,12 +87,9 @@ div.social
 
 div.sociallinks
 {
-  display:flex;
-  flex-wrap:wrap;
-  justify-content:center;
-  position:relative;
-  width:350px;
   margin:auto;
+  width:350px;
   box-shadow: 0px 0px 10px black;
   background-color:rgba(0,0,0,.5);
+  border-radius: 10px;
 }
