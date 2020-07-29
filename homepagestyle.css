@@ -12,6 +12,15 @@
   font-family: "impact";
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -7px black;
 }
+.headrainbow{
+  text-align:center;
+  color:white;
+  font-size:600%;
+  font-family: "impact";
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -7px black;
+  animation: fontcolor 1s infinite alternate;
+
+}
 .subheader{
   text-align:center;
   font-size:150%;
@@ -111,4 +120,25 @@ div.splitright{
   width:400px;
   height:auto;
   margin-left:50%;
+}
+@keyframes fontcolor {
+    0% {
+        color: #45a3e5
+    }
+
+    30% {
+        color: #66bf39
+    }
+
+    60% {
+        color: #eb670f
+    }
+
+    90% {
+        color: #f35
+    }
+
+    100% {
+        color: #864cbf
+    }
 }
