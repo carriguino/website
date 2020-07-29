@@ -36,7 +36,8 @@ function newIntro() {
   'Welcome to the site!',
   'Yo, haha you\'re here, cool... yeah',
   'Despite everything, it\'s still you.',
-  'I can\'t go to hell. I\'m all out of vacation days.'
+  'I can\'t go to hell. I\'m all out of vacation days.',
+  ':3c'
   ];
 
   var randomIntro = Math.floor(Math.random() * intros.length);
