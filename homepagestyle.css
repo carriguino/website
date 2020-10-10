@@ -142,3 +142,7 @@ div.splitright{
         color: #864cbf
     }
 }
+iframe {
+    margin: auto;
+    display:block;
+}
