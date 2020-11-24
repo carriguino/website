@@ -37,7 +37,8 @@ function newIntro() {
   'Yo, haha you\'re here, cool... yeah',
   'Despite everything, it\'s still you.',
   'I can\'t go to hell. I\'m all out of vacation days.',
-  ':3c'
+  ':3c',
+  'I don\'t have a limit to the amount of characters I can use as this header so hey that\'s a cool thought isn\'t it?'
   ];
 
   var randomIntro = Math.floor(Math.random() * intros.length);
