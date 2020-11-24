@@ -38,7 +38,7 @@ function newIntro() {
   'Despite everything, it\'s still you.',
   'I can\'t go to hell. I\'m all out of vacation days.',
   ':3c',
-  'I don\'t have a limit to the amount of characters I can use as this header so hey that\'s a cool thought isn\'t it?'
+  'I don\'t have a limit to the amount of characters I can use as this header so hey that\'s a cool thought isn\'t it? Did you know that in 1855 Jefferson Davis convinced the US Military to import camels for use of transportation but then once the civil war started a lot of them were set loose or escaped, at which point the state of Arizona declared it illegal to hunt camels?'
   ];
 
   var randomIntro = Math.floor(Math.random() * intros.length);
