@@ -37,7 +37,8 @@ function newIntro() {
   'Yo, haha you\'re here, cool... yeah',
   'Despite everything, it\'s still you.',
   'I can\'t go to hell. I\'m all out of vacation days.',
-  ':3c'
+  ':3c',
+  'Fun Fact: I don\'t have a set limit to the amount of characters I can use as this header so hey that\'s a cool thought isn\'t it? I think it\'s interesting to think of how long I could posisbly make this title, really make you scoll. Did you know that in a study published in 2016 that black americans are disproportionately killed at a rate of 2.8x higher than white people? Along with the fact that while most victims of all races are armed 83% of the time, blacks are most likely to be unarmed at a rate of 14.8% while white people have a rate of 9.4% and hispanics with a rate of 5.4%? Just food for thought. Alright haha thanks for stopping by and reading this have a good stay at my site.'
   ];
 
   var randomIntro = Math.floor(Math.random() * intros.length);
