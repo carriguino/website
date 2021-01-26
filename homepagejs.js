@@ -6,7 +6,8 @@ function newIntro() {
   'Minceraft',
   'Carri\'s Domain',
   'Carri\'s Artsite!',
-  'hi u///u', '\'sup.',
+  'hi u///u',
+  '\'sup.',
   'Hey! You\'re finally awake!',
   'Welcome to my site!',
   'oh, hey i guess...',
@@ -38,7 +39,17 @@ function newIntro() {
   'Despite everything, it\'s still you.',
   'I can\'t go to hell. I\'m all out of vacation days.',
   ':3c',
-  'Fun Fact: I don\'t have a set limit to the amount of characters I can use as this header so hey that\'s a cool thought isn\'t it? I think it\'s interesting to think of how long I could posisbly make this title, really make you scoll. Did you know that in a study published in 2016 that black americans are disproportionately killed at a rate of 2.8x higher than white people? Along with the fact that while most victims of all races are armed 83% of the time, blacks are most likely to be unarmed at a rate of 14.8% while white people have a rate of 9.4% and hispanics with a rate of 5.4%? Just food for thought. Alright haha thanks for stopping by and reading this have a good stay at my site.'
+  'Fun Fact: I don\'t have a set limit to the amount of characters I can use as this header so hey that\'s a cool thought isn\'t it? I think it\'s interesting to think of how long I could posisbly make this title, really make you scoll. Did you know that in a study published in 2016 that black americans are disproportionately killed at a rate of 2.8x higher than white people? Along with the fact that while most victims of all races are armed 83% of the time, blacks are most likely to be unarmed at a rate of 14.8% while white people have a rate of 9.4% and hispanics with a rate of 5.4%? Just food for thought. Alright haha thanks for stopping by and reading this have a good stay at my site.',
+  'updates bi-yearly',
+  'BLM',
+  'man if you see this one youre kinda lucky, theres like 30 of these',
+  'What the fuck did you just fucking say about me, you little bitch? I\'ll have you know I graduated top of my class in the Navy Seals, and I\'ve been involved in numerous secret raids on Al-Quaeda, and I have over 300 confirmed kills. I am trained in goril-',
+  'hi every1 im new!!!!!!! *holds up spork* my name is katy but u can call me t3h PeNgU1N oF d00m!!!!!!!! lol…as u can see im very random!!!',
+  '*your address*',
+  'Randomized Intros!',
+  'Eats Spicy Goodness, Like a Bo-',
+  '1-900-490-FREAK',
+  'Owo?'
   ];
 
   var randomIntro = Math.floor(Math.random() * intros.length);
