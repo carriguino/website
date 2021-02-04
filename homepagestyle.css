@@ -102,24 +102,19 @@ div.sociallinks
   border-radius: 10px;
 }
 div.splitleft{
-  display:flex;
-  flex-wrap:wrap;
-  justify-content:center;
-  position:relative;
-  float:left;
-  width:400px;
-  height:auto;
-  left:150px;
+  float: left;
+  width: 400px;
+  height: 100px;
+  margin: 1em;
 }
 div.splitright{
-  display:flex;
-  flex-wrap:wrap;
-  justify-content:center;
-  position:relative;
-  float:left;
-  width:400px;
-  height:auto;
-  margin-left:50%;
+  float: right;
+  width: auto;
+  height: 100px;
+  margin: 1em;
+}
+.after-split {
+  clear: both;
 }
 @keyframes fontcolor {
     0% {
