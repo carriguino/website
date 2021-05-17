@@ -30,8 +30,6 @@ function newIntro() {
   'Welcome friend :)',
   'Heya, welcome',
   'Not Spyware',
-  'Don\'t look at my code, baka! O//O',
-  'Swag',
   '<3',
   'ʎluO suɐᴉlɐɹʇsn∀',
   'Welcome to the site!',
@@ -43,13 +41,14 @@ function newIntro() {
   'updates bi-yearly',
   'BLM',
   'man if you see this one youre kinda lucky, theres like 30 of these',
-  'What the fuck did you just fucking say about me, you little bitch? I\'ll have you know I graduated top of my class in the Navy Seals, and I\'ve been involved in numerous secret raids on Al-Quaeda, and I have over 300 confirmed kills. I am trained in goril-',
-  'hi every1 im new!!!!!!! *holds up spork* my name is katy but u can call me t3h PeNgU1N oF d00m!!!!!!!! lol…as u can see im very random!!!',
-  '*your address*',
   'Randomized Intros!',
   'Eats Spicy Goodness, Like a Bo-',
   '1-900-490-FREAK',
-  'Owo?'
+  'Owo?',
+  'this website is in development hell.',
+  'welcome back!',
+  'these intros are hard to think of',
+  'can love bloom on a battlefield?'
   ];
 
   var randomIntro = Math.floor(Math.random() * intros.length);
