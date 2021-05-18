@@ -59,7 +59,8 @@ function newIntro() {
   'A sound soul dwells within a sound mind and a sound body',
   'What is a man? A miserable little pile of secrets! But enough talk! Have at you!',
   'please send me funny ideas for these, i need as many as possible!',
-  'Free to Start'
+  'Free to Start',
+  'web design is hard im sorry babe'
   ];
 
   var randomIntro = Math.floor(Math.random() * intros.length);
