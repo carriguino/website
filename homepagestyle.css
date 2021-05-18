@@ -45,6 +45,16 @@
   font-size:200%;
   font-family:"cambria";
 }
+.homebutton{
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+  top:30px;
+  left:30px;
+  transition: 0.3s;
+  margin:10px;
+  box-shadow: 0 0 10px black;
+}
 
 div.centerbuttonp
 {
@@ -60,6 +70,7 @@ div.centerbuttonp
 .button:hover {
   box-shadow: 0 0 10px black;
 }
+
 .subbutton{
   background-color:#E8736A;
   padding:7px 15px;
