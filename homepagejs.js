@@ -58,7 +58,8 @@ function newIntro() {
   'Go home and be a family man',
   'A sound soul dwells within a sound mind and a sound body',
   'What is a man? A miserable little pile of secrets! But enough talk! Have at you!',
-  'please send me funny ideas for these, i need as many as possible!'
+  'please send me funny ideas for these, i need as many as possible!',
+  'Free to Start'
   ];
 
   var randomIntro = Math.floor(Math.random() * intros.length);
