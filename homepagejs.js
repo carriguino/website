@@ -31,7 +31,6 @@ function newIntro() {
   'Heya, welcome',
   'Not Spyware',
   '<3',
-  'ʎluO suɐᴉlɐɹʇsn∀',
   'Welcome to the site!',
   'Yo, haha you\'re here, cool... yeah',
   'Despite everything, it\'s still you.',
