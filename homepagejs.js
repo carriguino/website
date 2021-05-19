@@ -11,7 +11,7 @@ function newIntro() {
   'Hey! You\'re finally awake!',
   'Welcome to my site!',
   'oh, hey i guess...',
-  'Thank\'s for comin\'g!',
+  'Thank\'s fo\'r comin\'g!',
   '👁️  👁️',
   'Have a nice stay!',
   'Welcome to tha site :O',

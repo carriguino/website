@@ -48,6 +48,7 @@
 .homebutton{
   cursor: pointer;
   position: relative;
+  bottom:60px;
 }
 
 div.centerbuttonp
