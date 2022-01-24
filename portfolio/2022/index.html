@@ -2,23 +2,22 @@
 <html>
 <head>
 
-<link rel="stylesheet" type="text/css" href="artlayout.css">
-<link rel="stylesheet" type="text/css" href="../homepagestyle.css">
-<link rel="icon" type="image/png" href="../favicon.png">
-<script src="modal.js"></script>
-<script src="../navigation.js"></script>
+<link rel="stylesheet" type="text/css" href="../artlayout.css">
+<link rel="stylesheet" type="text/css" href="../../homepagestyle.css">
+<link rel="icon" type="image/png" href="../../favicon.png">
+<script src="../../navigation.js"></script>
 	
 	<style>
 	body {
-		background-position: center 200px;
-    background-image: -webkit-linear-gradient(270deg,rgba(111,148,161,1.00) 42.49%,rgba(22,38,107,0.00) 100%), url("2020/CronaRedraw.PNG");
-    background-image: -moz-linear-gradient(270deg,rgba(111,148,161,1.00) 42.49%,rgba(22,38,107,0.00) 100%), url("2020/CronaRedraw.PNG");
-    background-image: -o-linear-gradient(270deg,rgba(111,148,161,1.00) 42.49%,rgba(22,38,107,0.00) 100%), url("2020/CronaRedraw.PNG");
-    background-image: linear-gradient(180deg,rgba(111,148,161,1.00) 42.49%,rgba(22,38,107,0.00) 100%), url("2020/CronaRedraw.PNG");
-}
-	</style>
+    background-color: #E3748A;
+    background-position: center 0px;
+    background-image: -webkit-linear-gradient(270deg,rgba(111,148,161,1.00) 14.16%,rgba(96,120,143,0.00) 54.06%);
+    background-image: -moz-linear-gradient(270deg,rgba(111,148,161,1.00) 14.16%,rgba(96,120,143,0.00) 54.06%);
+    background-image: -o-linear-gradient(270deg,rgba(111,148,161,1.00) 14.16%,rgba(96,120,143,0.00) 54.06%);
+    background-image: linear-gradient(180deg,rgba(111,148,161,1.00) 14.16%,rgba(96,120,143,0.00) 54.06%);}
+    </style>
 	
-<div id="mySidenav" class="sidenav">
+	<div id="mySidenav" class="sidenav">
 	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 	<a class="head" style="color: #000000; text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -3px white; font-size: 200%">Navigation</a>
 	<a class= "subheader" style="text-align: left; color: black" href="https://carrigan.netlify.app/index.html">Home</a>
@@ -34,28 +33,36 @@
 </div>
 
 <span style="font-size:30px;cursor:pointer; position:static" onclick="openNav()">
-	<img class="navimg" src="../favicon.png" style="width: 50px; padding: 10px" alt="navimg">
-	</span>	
+	<img class="navimg" src="../../favicon.png" style="width: 50px; padding: 10px" alt="navimg">
+	</span>
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title> Carri's Artsite! </title>
-<h1 class="head"> PORTFOLIO </h1>
-<h1 class="subheader">This is going to become a large collection of my art pieces over the years</h1>
+<title> 2022 Portfolio | CARRISITE </title>
+<h1 class="head"> 2022</h1>
+<h1 class="subheader">Current works from this year!</h1>
 
 </head>
+	
 <body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
-<!--Portfolio Links-->
-<div class = "centerbuttonp">
-    <a class="button" href="/portfolio/20162017"> 2016 & 2017 Art </a>
-    <a class="button" href="/portfolio/2018"> 2018 Art </a>
-    <a class="button" href="/portfolio/2019"> 2019 Art </a>
-    <a class="button" href="/portfolio/2020"> 2020 Art </a>
-    <a class="button" href="/portfolio/2021"> 2021 Art </a>
-    <a class="button" href="/portfolio/2022"> 2022 Art </a>
-    <a class="button" href="/portfolio/complete"> Complete Collection! </a>
+<!--art pieces-->
+<div class="artlayout">
+	<img class="myImg" src="PowerDoodle.png" alt= "Power - Doodle - Jan 23, 2022" style="height:100%; max-height:300px">
+
 </div>
+<h1 class = "subtitle">still updating!</h1>
+
+<!-- Modal stuffs-->
+<div id="myModal" class="modal">
+
+<span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+
+<img class="modal-content" id="img01" alt="modalcontent">
+
+<div id="caption"></div>
+</div>
+<script src="../modal.js"></script>
 </body>
 </html>
