@@ -1,13 +1,14 @@
 body {
-    background-color: #60788F;
-    background-repeat: no-repeat;
-    background-position: center -37px;
-    background-image: -webkit-linear-gradient(270deg,rgba(96,120,143,1.00) 42.49%,rgba(22,38,107,0.00) 100%), url("portfolio/2021/selfportrait.png");
-    background-image: -moz-linear-gradient(270deg,rgba(96,120,143,1.00) 42.49%,rgba(22,38,107,0.00) 100%), url("portfolio/2021/selfportrait.png");
-    background-image: -o-linear-gradient(270deg,rgba(96,120,143,1.00) 42.49%,rgba(22,38,107,0.00) 100%), url("portfolio/2021/selfportrait.png");
-    background-image: linear-gradient(180deg,rgba(96,120,143,1.00) 42.49%,rgba(22,38,107,0.00) 100%), url("portfolio/2021/selfportrait.png");
+  background-color: #60788F;
+  background-repeat: no-repeat;
+  background-position: center -37px;
+  background-image: -webkit-linear-gradient(270deg, rgba(96, 120, 143, 1.00) 42.49%, rgba(22, 38, 107, 0.00) 100%), url("portfolio/2021/selfportrait.png");
+  background-image: -moz-linear-gradient(270deg, rgba(96, 120, 143, 1.00) 42.49%, rgba(22, 38, 107, 0.00) 100%), url("portfolio/2021/selfportrait.png");
+  background-image: -o-linear-gradient(270deg, rgba(96, 120, 143, 1.00) 42.49%, rgba(22, 38, 107, 0.00) 100%), url("portfolio/2021/selfportrait.png");
+  background-image: linear-gradient(180deg, rgba(96, 120, 143, 1.00) 42.49%, rgba(22, 38, 107, 0.00) 100%), url("portfolio/2021/selfportrait.png");
 }
-.head{
+
+.head {
   text-align: center;
   color: white;
   font-size: 600%;
@@ -16,13 +17,13 @@ body {
   -webkit-text-stroke: 2px black;
   text-shadow:
     3px 3px 0 #000,
-    -1px -1px 0 #000,  
+    -1px -1px 0 #000,
     1px -1px 0 #000,
     -1px 1px 0 #000,
     1px 1px 0 #000;
 }
 
-.head2{
+.head2 {
   text-align: center;
   color: white;
   font-size: 600%;
@@ -31,108 +32,112 @@ body {
   -webkit-text-stroke: 2px black;
   text-shadow:
     3px 3px 0 #000,
-    -1px -1px 0 #000,  
+    -1px -1px 0 #000,
     1px -1px 0 #000,
     -1px 1px 0 #000,
     1px 1px 0 #000;
 }
 
-.subheader{
-  text-align:center;
-  font-size:250%;
-  font-family:"cambria";
+.subheader {
+  text-align: center;
+  font-size: 250%;
+  font-family: "cambria";
   color: white;
   -webkit-text-stroke: .5 black;
   text-shadow:
     3px 3px 0 #000,
-    -1px -1px 0 #000,  
+    -1px -1px 0 #000,
     1px -1px 0 #000,
     -1px 1px 0 #000,
     1px 1px 0 #000;
 }
-.subtitle{
-  text-align:center;
-  font-size:150%;
-  font-family:"cambria";
+
+.subtitle {
+  text-align: center;
+  font-size: 150%;
+  font-family: "cambria";
   color: white;
   -webkit-text-stroke: .5 black;
   text-shadow:
     3px 3px 0 #000,
-    -1px -1px 0 #000,  
+    -1px -1px 0 #000,
     1px -1px 0 #000,
     -1px 1px 0 #000,
     1px 1px 0 #000;
 }
-.button{
-  background:lightpink;
-  padding:25px 35px;
-  text-align:center;
+
+.button {
+  background: lightpink;
+  padding: 25px 35px;
+  text-align: center;
   margin: 10px;
-  display:inline-block;
-  color:black;
-  text-decoration:none;
+  display: inline-block;
+  color: black;
+  text-decoration: none;
   box-shadow: 0px 0 5px black;
-  font-size:200%;
-  font-family:"cambria";
-	border: ridge 10px hotpink;
+  font-size: 200%;
+  font-family: "cambria";
+  border: ridge 10px hotpink;
 }
-.homebutton{
+
+.homebutton {
   cursor: pointer;
   position: relative;
 }
 
-div.centerbuttonp
-{
+div.centerbuttonp {
   display: flex;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  width:1000px;
-  height:auto;
-  margin:auto;
+  width: 1000px;
+  height: auto;
+  margin: auto;
 }
 
-.pinkwindow{
-	left:auto;
-	background:lightpink;
-	border: ridge 10px hotpink;
+.pinkwindow {
+  left: auto;
+  background: lightpink;
+  border: ridge 10px hotpink;
 }
 
 .button:hover {
   box-shadow: 0 0 10px black;
 }
 
-.subbutton{
-  background-color:#E8736A;
-  padding:7px 15px;
-  text-align:center;
-  margin:auto;
+.subbutton {
+  background-color: #E8736A;
+  padding: 7px 15px;
+  text-align: center;
+  margin: auto;
   width: 70px;
-  display:inline-block;
-  color:white;
-  text-decoration:none;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
 }
-.subbutton:hover{
-  opacity: 0.7; 
+
+.subbutton:hover {
+  opacity: 0.7;
 }
-.sublink{
-  background-color:white;
+
+.sublink {
+  background-color: white;
   padding: 5px 5px;
-  text-align:center;
+  text-align: center;
   display: inline-block;
   color: black;
-  text-decoration:none;
+  text-decoration: none;
 }
-div.centertext
-{
-  position:relative;
-  height:80px;
-  margin:auto;
+
+div.centertext {
+  position: relative;
+  height: 80px;
+  margin: auto;
 }
 
 iframe {
   margin: auto;
-  display:block;
+  display: block;
 }
 
 .sidenav {
@@ -177,88 +182,98 @@ iframe {
 }
 
 @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+  .sidenav {
+    padding-top: 15px;
+  }
+
+  .sidenav a {
+    font-size: 18px;
+  }
 }
 
-.sm_icon{
+.sm_icon {
 
   width: 50px;
-  padding:25px;
+  padding: 25px;
 
 }
 
 /*phones*/
-@media (max-width: 400px){
+@media (max-width: 400px) {
 
-	
-	.head{
-	font-size: 400%;
-	}
-	.head2{
-	font-size: 300%;
-	}
-	.subheader{
-	font-size:120%;
-		text-align: center;
-	}
-	.subtitle{
-	font-size:100%;
-	}
-	
-	div.centerbuttonp{
-		  display: inline;
-  justify-content: center;
-  align-items: center;
-  width:1000px;
-  height:auto;
-  margin:auto;
-	}
-	
-	.button{
-  padding:25px 35px;
-		margin:20px;
-  text-align:center;
-  display:block;
-  font-size:200%;
-	}
+
+  .head {
+    font-size: 400%;
+  }
+
+  .head2 {
+    font-size: 300%;
+  }
+
+  .subheader {
+    font-size: 120%;
+    text-align: center;
+  }
+
+  .subtitle {
+    font-size: 100%;
+  }
+
+  div.centerbuttonp {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: auto;
+    margin: auto;
+  }
+
+  .button {
+    padding: 25px 35px;
+    margin: 20px;
+    text-align: center;
+    display: block;
+    font-size: 200%;
+  }
 
 }
 
 /*tablets*/
-@media ( min-width : 401px ) and (max-width : 1000px ){	   
-		.head{
-	font-size: 400%;
-	}
-	.head2{
-	font-size: 400%;
-	}
-	
-	.subheader{
-		font-size:150%;
-	}
-	.subtitle{
-		font-size:120%;
-	}
-	
-	div.centerbuttonp{
-  justify-content: center;
-  align-items: center;
-  width:85%;
-  height:auto;
-  margin:auto;
-	}
-	
-	.button{
-  padding:25px 35px;
-		margin:10px;
-  text-align:center;
-  font-size:200%;
-	}
+@media (min-width : 401px) and (max-width : 1000px) {
+  .head {
+    font-size: 400%;
+  }
+
+  .head2 {
+    font-size: 400%;
+  }
+
+  .subheader {
+    font-size: 150%;
+  }
+
+  .subtitle {
+    font-size: 120%;
+  }
+
+  div.centerbuttonp {
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    height: auto;
+    margin: auto;
+  }
+
+  .button {
+    padding: 25px 35px;
+    margin: 10px;
+    text-align: center;
+    font-size: 200%;
+  }
 }
 
-@media (min-width: 1001px){
-	.head2{
-	font-size: 400%;
-	}
+@media (min-width: 1001px) {
+  .head2 {
+    font-size: 400%;
+  }
 }
