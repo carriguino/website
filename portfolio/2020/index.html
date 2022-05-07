@@ -1,85 +1,132 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 
-<link rel="stylesheet" type="text/css" href="../artlayout.css">
-<link rel="stylesheet" type="text/css" href="../../homepagestyle.css">
-<link rel="icon" type="image/png" href="../../favicon.png">
-<script src="../../navigation.js"></script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-D2RKVSHSQL"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'G-D2RKVSHSQL');
+	</script>
+
+	<link rel="stylesheet" type="text/css" href="../artlayout.css">
+	<link rel="stylesheet" type="text/css" href="../../homepagestyle.css">
+	<link rel="icon" type="image/png" href="../../favicon.png">
+	<script src="../../navigation.js"></script>
 
 	<style>
-	body {
-    background-color: #5FB699;
-    background-position: center 0px;
-    background-image: -webkit-linear-gradient(270deg,rgba(111,148,161,1.00) 14.16%,rgba(96,120,143,0.00) 54.06%);
-    background-image: -moz-linear-gradient(270deg,rgba(111,148,161,1.00) 14.16%,rgba(96,120,143,0.00) 54.06%);
-    background-image: -o-linear-gradient(270deg,rgba(111,148,161,1.00) 14.16%,rgba(96,120,143,0.00) 54.06%);
-    background-image: linear-gradient(180deg,rgba(111,148,161,1.00) 14.16%,rgba(96,120,143,0.00) 54.06%);}
-    </style>
-	
-		<div id="mySidenav" class="sidenav">
-	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-	<a class="head" style="color: #000000; text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -3px white; font-size: 200%">Navigation</a>
-	<a class= "subheader" style="text-align: left; color: white;" href="https://carrigan.netlify.app/index.html">Home</a>
-	<a class= "subheader" style="text-align: left;color: white;" href="https://carrigan.netlify.app/about/index.html">About</a>
-	<a class= "subheader" style="text-align: left; color: white;" href="https://carrigan.netlify.app/portfolio/index.html">Portfolio</a>
-	<a class= "subheader" style="text-align: left; color: white;" href="https://carrigan.netlify.app/games/index.html">Games</a>
-	<a class= "subheader" style="text-align: left; color: white;" href="https://carrigan.netlify.app/commissions/index.html">Contact</a>
-	<br>
-	<a class="head" style="color: #000000; text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -3px white; font-size: 200%; white-space: nowrap; ">Social Media</a>
-	<a class= "subheader" style="text-align: left; color: white;" href="https://www.instagram.com/carrigan__" target="_blank">Instagram</a>
-	<a class= "subheader" style="text-align: left; color: white;" href="https://twitter.com/carrigann__" target="_blank">Twitter</a>
-	<a class= "subheader" style="text-align: left; white-space: nowrap; color: white;" href="https://discord.gg/BzZd7xD" target="_blank">Discord Server</a>
-</div>
+		body {
+			background-color: #5FB699;
+			background-position: center 0px;
+			background-image: -webkit-linear-gradient(270deg, rgba(111, 148, 161, 1.00) 14.16%, rgba(96, 120, 143, 0.00) 54.06%);
+			background-image: -moz-linear-gradient(270deg, rgba(111, 148, 161, 1.00) 14.16%, rgba(96, 120, 143, 0.00) 54.06%);
+			background-image: -o-linear-gradient(270deg, rgba(111, 148, 161, 1.00) 14.16%, rgba(96, 120, 143, 0.00) 54.06%);
+			background-image: linear-gradient(180deg, rgba(111, 148, 161, 1.00) 14.16%, rgba(96, 120, 143, 0.00) 54.06%);
+		}
+	</style>
 
-<span style="font-size:30px;cursor:pointer; position:static" onclick="openNav()">
-	<img class="navimg" src="../../favicon.png" style="width: 50px; padding: 10px" alt="navimg">
+	<div id="mySidenav" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<a class="head"
+			style="color: #000000; text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -3px white; font-size: 200%">Navigation</a>
+		<a class="subheader" style="text-align: left; color: white;"
+			href="https://carrigan.netlify.app/index.html">Home</a>
+		<a class="subheader" style="text-align: left;color: white;"
+			href="https://carrigan.netlify.app/about/index.html">About</a>
+		<a class="subheader" style="text-align: left; color: white;"
+			href="https://carrigan.netlify.app/portfolio/index.html">Portfolio</a>
+		<a class="subheader" style="text-align: left; color: white;"
+			href="https://carrigan.netlify.app/games/index.html">Games</a>
+		<a class="subheader" style="text-align: left; color: white;"
+			href="https://carrigan.netlify.app/commissions/index.html">Contact</a>
+		<br>
+		<a class="head"
+			style="color: #000000; text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -3px white; font-size: 200%; white-space: nowrap; ">Social
+			Media</a>
+		<a class="subheader" style="text-align: left; color: white;" href="https://www.instagram.com/carrigan__"
+			target="_blank">Instagram</a>
+		<a class="subheader" style="text-align: left; color: white;" href="https://twitter.com/carrigann__"
+			target="_blank">Twitter</a>
+		<a class="subheader" style="text-align: left; white-space: nowrap; color: white;"
+			href="https://discord.gg/BzZd7xD" target="_blank">Discord Server</a>
+	</div>
+
+	<span style="font-size:30px;cursor:pointer; position:static" onclick="openNav()">
+		<img class="navimg" src="../../favicon.png" style="width: 50px; padding: 10px" alt="navimg">
 	</span>
 
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title> 2020 Portfolio | CARRISITE </title>
-<h1 class="head">2020</h1>
-<h1 class="subheader">Complete Works from 2020</h1>
-  
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> 2020 Portfolio | CARRISITE </title>
+	<h1 class="head">2020</h1>
+	<h1 class="subheader">Complete Works from 2020</h1>
+
 </head>
+
 <body>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
-<!--art pieces-->
-<div class="artlayout">
-	<img class="myImg" src="MTA2020.png" alt= "2020's Meet The Artist - Personal - Jan 14, 2020" style="height:100%; max-height:300px">
-	<img class="myImg" src="JordanBday2020.png" alt= "Purchase of a Lone God - Gift - Feb 19, 2020" style="height:100%; max-height:300px">
-	<img class="myImg" src="Fired.PNG" alt= "You're Fired - Gift - March 5, 2020" style="height:100%; max-height:300px">
-	<img class="myImg" src="Fired2.PNG" alt= "You're Fired (Alt) - Gift - March 5, 2020" style="height:100%; max-height:300px">
-	<img class="myImg" src="Chara.PNG" alt= " A Genocidal Freak - Undertale Fanart - March 27, 2020" style="height:100%; max-height:300px">
-	<img class="myImg" src="Gidjet.PNG" alt= "Space Mechanic On Sight! - Gift - April 8, 2020" style="height:100%; max-height:300px">
-	<img class="myImg" src="TheBugs.PNG" alt= "The Bugs... - Mouth Sweet Fanart - April 13, 2020" style="height:100%; max-height:300px">
-	<img class="myImg" src="TabithaSelfie.PNG" alt= ":P (Sketch) - OC Art - May 6, 2020" style="height:100%; max-height:300px">
-	<img class="myImg" src="AriaBLM.PNG" alt= "Aria - BLM Donation Headshot - June 5, 2020" style="height:100%; max-height:300px">
-	<img class="myImg" src="NaomiBLM.PNG" alt= "Naomi - BLM Donation Headshot - June 12, 2020" style="height:100%; max-height:300px"> 
-	<img class="myImg" src="JillTrade1.PNG" alt= "<a class='insublink' href='https://twitter.com/slusheepop' target='_blank'>Slushee's</a> Lolipop Lady - Art Trade - June 19, 2020" style="height:100%; max-height:300px">
-	<img class="myImg" src="JillTrade2.PNG" alt= "Filtered Alt for <a class='insublink' href='https://twitter.com/slusheepop'target='_blank'>Slushee's</a> Lolipop Lady - Art Trade - June 19, 2020" style="height:100%; max-height:300px">
-	<img class="myImg" src="SoulEater1Redraw.PNG" alt= "Soul Eater Manga Redraw - Soul Eater Fanart - July 13, 2020" style="height:100%; max-height:300px">
-	<img class="myImg" src="Michirudoodle.PNG" alt= "Michiru Doodle :) - Brand New Animal Fanart - July 17, 2020" style="height:100%; max-height:300px">
-	<img class="myImg" src="CronaRedraw.PNG" alt= "Demon Sword Meister: Crona - Soul Eater Fanart - Aug 6, 2020" style="height:100%; max-height:300px">
-	<img class="myImg" src="ZacharieFloat.PNG" alt= "“Bis vincit, que se vincet in Victoria” - OFF Fanart - Aug 16, 2020" style="height:100%; max-height:300px">
-	<img class="myImg" src="HazelNSonny.PNG" alt= "<a class='insublink' href='https://www.instagram.com/cartoonyluii/' target='_blank'>Cartoonyluii's</a> Hazel n' Sonny! - Art Trade - Aug 25, 2020" style="height:100%; max-height:300px">
-	<img class="myImg" src="kief1.png" alt= "Kief - Gift - Sept 22, 2020" style="height:100%; max-height:300px">
-	<img class="myImg" src="kief2.png" alt= "Kief Alt - Gift - Sept 22, 2020" style="height:100%; max-height:300px">
-	<img class="myImg" src="femjae.PNG" alt= "f!Jae - OC Art - Nov 23, 2020" style="height:100%; max-height:300px">
-	<img class="myImg" src="theself.PNG" alt= "The Self - Schoolwork - Dec 10, 2020" style="height:100%; max-height:300px">
-</div>
+	<!--art pieces-->
+	<div class="artlayout">
+		<img class="myImg" src="MTA2020.png" alt="2020's Meet The Artist - Personal - Jan 14, 2020"
+			style="height:100%; max-height:300px">
+		<img class="myImg" src="JordanBday2020.png" alt="Purchase of a Lone God - Gift - Feb 19, 2020"
+			style="height:100%; max-height:300px">
+		<img class="myImg" src="Fired.PNG" alt="You're Fired - Gift - March 5, 2020"
+			style="height:100%; max-height:300px">
+		<img class="myImg" src="Fired2.PNG" alt="You're Fired (Alt) - Gift - March 5, 2020"
+			style="height:100%; max-height:300px">
+		<img class="myImg" src="Chara.PNG" alt=" A Genocidal Freak - Undertale Fanart - March 27, 2020"
+			style="height:100%; max-height:300px">
+		<img class="myImg" src="Gidjet.PNG" alt="Space Mechanic On Sight! - Gift - April 8, 2020"
+			style="height:100%; max-height:300px">
+		<img class="myImg" src="TheBugs.PNG" alt="The Bugs... - Mouth Sweet Fanart - April 13, 2020"
+			style="height:100%; max-height:300px">
+		<img class="myImg" src="TabithaSelfie.PNG" alt=":P (Sketch) - OC Art - May 6, 2020"
+			style="height:100%; max-height:300px">
+		<img class="myImg" src="AriaBLM.PNG" alt="Aria - BLM Donation Headshot - June 5, 2020"
+			style="height:100%; max-height:300px">
+		<img class="myImg" src="NaomiBLM.PNG" alt="Naomi - BLM Donation Headshot - June 12, 2020"
+			style="height:100%; max-height:300px">
+		<img class="myImg" src="JillTrade1.PNG"
+			alt="<a class='insublink' href='https://twitter.com/slusheepop' target='_blank'>Slushee's</a> Lolipop Lady - Art Trade - June 19, 2020"
+			style="height:100%; max-height:300px">
+		<img class="myImg" src="JillTrade2.PNG"
+			alt="Filtered Alt for <a class='insublink' href='https://twitter.com/slusheepop'target='_blank'>Slushee's</a> Lolipop Lady - Art Trade - June 19, 2020"
+			style="height:100%; max-height:300px">
+		<img class="myImg" src="SoulEater1Redraw.PNG" alt="Soul Eater Manga Redraw - Soul Eater Fanart - July 13, 2020"
+			style="height:100%; max-height:300px">
+		<img class="myImg" src="Michirudoodle.PNG" alt="Michiru Doodle :) - Brand New Animal Fanart - July 17, 2020"
+			style="height:100%; max-height:300px">
+		<img class="myImg" src="CronaRedraw.PNG" alt="Demon Sword Meister: Crona - Soul Eater Fanart - Aug 6, 2020"
+			style="height:100%; max-height:300px">
+		<img class="myImg" src="ZacharieFloat.PNG"
+			alt="“Bis vincit, que se vincet in Victoria” - OFF Fanart - Aug 16, 2020"
+			style="height:100%; max-height:300px">
+		<img class="myImg" src="HazelNSonny.PNG"
+			alt="<a class='insublink' href='https://www.instagram.com/cartoonyluii/' target='_blank'>Cartoonyluii's</a> Hazel n' Sonny! - Art Trade - Aug 25, 2020"
+			style="height:100%; max-height:300px">
+		<img class="myImg" src="kief1.png" alt="Kief - Gift - Sept 22, 2020" style="height:100%; max-height:300px">
+		<img class="myImg" src="kief2.png" alt="Kief Alt - Gift - Sept 22, 2020" style="height:100%; max-height:300px">
+		<img class="myImg" src="femjae.PNG" alt="f!Jae - OC Art - Nov 23, 2020" style="height:100%; max-height:300px">
+		<img class="myImg" src="theself.PNG" alt="The Self - Schoolwork - Dec 10, 2020"
+			style="height:100%; max-height:300px">
+	</div>
 
-<!-- Modal stuffs-->
-<div id="myModal" class="modal">
+	<!-- Modal stuffs-->
+	<div id="myModal" class="modal">
 
-<span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+		<span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
 
-<img class="modal-content" id="img01">
+		<img class="modal-content" id="img01">
 
-<div id="caption"></div>
-</div>
-<script src="../modal.js"></script></script>
+		<div id="caption"></div>
+	</div>
+	<script src="../modal.js"></script>
+	</script>
 
 </html>
