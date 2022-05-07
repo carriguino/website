@@ -1,13 +1,28 @@
 body {
-    background-color: #000000;
+    background-color: #60788F;
     background-repeat: no-repeat;
-    background-position: center -220px;
+    background-position: center -37px;
     background-image: -webkit-linear-gradient(270deg,rgba(96,120,143,1.00) 42.49%,rgba(22,38,107,0.00) 100%), url("portfolio/2021/selfportrait.png");
     background-image: -moz-linear-gradient(270deg,rgba(96,120,143,1.00) 42.49%,rgba(22,38,107,0.00) 100%), url("portfolio/2021/selfportrait.png");
     background-image: -o-linear-gradient(270deg,rgba(96,120,143,1.00) 42.49%,rgba(22,38,107,0.00) 100%), url("portfolio/2021/selfportrait.png");
     background-image: linear-gradient(180deg,rgba(96,120,143,1.00) 42.49%,rgba(22,38,107,0.00) 100%), url("portfolio/2021/selfportrait.png");
 }
 .head{
+  text-align: center;
+  color: white;
+  font-size: 600%;
+  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+  text-transform: uppercase;
+  -webkit-text-stroke: 2px black;
+  text-shadow:
+    3px 3px 0 #000,
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.head2{
   text-align: center;
   color: white;
   font-size: 600%;
@@ -49,7 +64,7 @@ body {
     1px 1px 0 #000;
 }
 .button{
-  background-color:white;
+  background:lightpink;
   padding:25px 35px;
   text-align:center;
   margin: 10px;
@@ -59,6 +74,7 @@ body {
   box-shadow: 0px 0 5px black;
   font-size:200%;
   font-family:"cambria";
+	border: ridge 10px hotpink;
 }
 .homebutton{
   cursor: pointer;
@@ -74,6 +90,12 @@ div.centerbuttonp
   width:1000px;
   height:auto;
   margin:auto;
+}
+
+.pinkwindow{
+	left:auto;
+	background:lightpink;
+	border: ridge 10px hotpink;
 }
 
 .button:hover {
@@ -164,4 +186,79 @@ iframe {
   width: 50px;
   padding:25px;
 
+}
+
+/*phones*/
+@media (max-width: 400px){
+
+	
+	.head{
+	font-size: 400%;
+	}
+	.head2{
+	font-size: 300%;
+	}
+	.subheader{
+	font-size:120%;
+		text-align: center;
+	}
+	.subtitle{
+	font-size:100%;
+	}
+	
+	div.centerbuttonp{
+		  display: inline;
+  justify-content: center;
+  align-items: center;
+  width:1000px;
+  height:auto;
+  margin:auto;
+	}
+	
+	.button{
+  padding:25px 35px;
+		margin:20px;
+  text-align:center;
+  display:block;
+  font-size:200%;
+	}
+
+}
+
+/*tablets*/
+@media ( min-width : 401px ) and (max-width : 1000px ){	   
+		.head{
+	font-size: 400%;
+	}
+	.head2{
+	font-size: 400%;
+	}
+	
+	.subheader{
+		font-size:150%;
+	}
+	.subtitle{
+		font-size:120%;
+	}
+	
+	div.centerbuttonp{
+  justify-content: center;
+  align-items: center;
+  width:85%;
+  height:auto;
+  margin:auto;
+	}
+	
+	.button{
+  padding:25px 35px;
+		margin:10px;
+  text-align:center;
+  font-size:200%;
+	}
+}
+
+@media (min-width: 1001px){
+	.head2{
+	font-size: 400%;
+	}
 }
