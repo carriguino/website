@@ -1,41 +1,41 @@
 .artlayout
-  {
-    display: flex;
-    flex-wrap:wrap;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .insublink{
+{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.insublink{
   width: 80%;
   max-width: 700px;
   text-align: center;
   color: #ccc;
   padding: 10px 0;
   height: 150px;
-  }
+}
 
-  div.favorites{
-    display: flex;
-    flex-wrap:wrap;
-    justify-content: center;
-    width:600px;
-    height:150px;
-    margin: 25px;
-    left:0px;
-    position:relative;
-  }
-  div.favimgs{
-    display: flex;
-    flex-wrap:wrap;
-    justify-content: center;
-    align-items: center;
-    width:400px;
-    height:auto;
-    margin: 25px;
-    left:100px;
-    position:relative;
-  }
+div.favorites{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  width:600px;
+  height:150px;
+  margin: 25px;
+  left:0px;
+  position:relative;
+}
+div.favimgs{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  align-items: center;
+  width:400px;
+  height:auto;
+  margin: 25px;
+  left:100px;
+  position:relative;
+}
 
 .myImg {
   border-radius: 5px;
@@ -118,6 +118,6 @@
 
 @media only screen and (max-width: 700px){
   .modal-content {
-      width: 100%;
-    }
+    width: 100%;
   }
+}
