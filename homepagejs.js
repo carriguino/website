@@ -59,7 +59,10 @@ function newIntro() {
       'What is a man? A miserable little pile of secrets! But enough talk! Have at you!',
       'please send me funny ideas for these, i need as many as possible!',
       'Free to Start',
-      'web design is hard im sorry babe'
+      'web design is hard im sorry babe',
+      'Non-binary',
+      'Enby\'s Paradise',
+      'they/theminium infused'
     ];
 
   var randomIntro = Math.floor(Math.random() * intros.length);
