@@ -1,4 +1,6 @@
 body {
+	margin: 0;
+	padding: 0;
   background-color: #60788F;
   background-repeat: no-repeat;
   background-position: center -37px;
@@ -66,6 +68,40 @@ body {
     1px 1px 0 #000;
 }
 
+div.navbar{
+	background: lightpink;
+	padding:10px;
+	display: flex;
+	flex-wrap:wrap;
+	flex-basis: auto;
+	align-items:center;
+	justify-content: space-evenly;
+	box-shadow: 0px 0 5px black;
+	font-family: "cambria";
+	border-bottom: ridge 10px hotpink;
+}
+
+.navtextcenter{
+	
+  text-align: center;
+	color: black;
+	font-size:250%;
+	text-decoration: none;
+	-webkit-text-stroke: .5 black;
+	text-shadow:
+	-1px -1px 0 white,
+	1px -1px 0  white,
+	-1px 1px 0  white,
+	1px 1px 0 white;
+}
+.navtext{
+	
+  text-align: center;
+	font-size:200%;
+  color: black;
+  text-decoration: none;
+}
+
 .button {
   background: lightpink;
   padding: 25px 35px;
@@ -86,19 +122,29 @@ body {
 }
 
 div.centerbuttonp {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  width: 1000px;
-  height: auto;
-  margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-self:center;
+	align-items: center;
+	width: 1000px;
+	height: auto;
+	margin: auto;
 }
 
 .pinkwindow {
-  left: auto;
-  background: lightpink;
-  border: ridge 10px hotpink;
+	display:flex;
+		justify-content: space-evenly;
+	align-self:center;
+	align-items: center;
+	background: lightpink;
+	border: ridge 10px hotpink;
+	height:10%; 
+	margin:auto;
+	margin-bottom:10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width:50%;
 }
 
 .button:hover {
@@ -140,61 +186,9 @@ iframe {
   display: block;
 }
 
-.sidenav {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #494949;
-  overflow-x: hidden;
-  transition: 0.3s;
-  padding-top: 60px;
-  box-shadow: 0px 0 black, 0 0px black, 5px 0 30px 0px black, 0 0px black;
-}
-
-.sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
-
-}
-
-.navimg {
-  position: sticky;
-  top: 15px;
-}
-
-.sidenav a:hover {
-  color: #f1f1f1;
-}
-
-.sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-}
-
-@media screen and (max-height: 450px) {
-  .sidenav {
-    padding-top: 15px;
-  }
-
-  .sidenav a {
-    font-size: 18px;
-  }
-}
-
 .sm_icon {
 
   width: 50px;
-  padding: 25px;
 
 }
 
@@ -203,7 +197,7 @@ iframe {
 
 
   .head {
-    font-size: 400%;
+    font-size: 300%;
   }
 
   .head2 {
@@ -236,6 +230,16 @@ iframe {
     font-size: 200%;
   }
 
+	div.navbar{
+		display:none;
+	}
+	
+	div.pinkwindow{
+		width:90%;
+		flex-wrap:wrap;
+			
+	}
+
 }
 
 /*tablets*/
@@ -263,6 +267,10 @@ iframe {
     height: auto;
     margin: auto;
   }
+	
+	div.pinkwindow{
+		width: 75%;
+	}
 
   .button {
     padding: 25px 35px;
@@ -270,6 +278,11 @@ iframe {
     text-align: center;
     font-size: 200%;
   }
+	
+	.navtextcenter, .navtext{
+	font-size:175%;
+}
+	
 }
 
 @media (min-width: 1001px) {
