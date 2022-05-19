@@ -68,6 +68,19 @@ body {
     1px 1px 0 #000;
 }
 
+.standard {
+  font-size: 150%;
+  font-family: "cambria";
+  color: black;
+}
+
+div.standard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
 div.navbar{
 	background: lightpink;
 	padding:10px;
@@ -142,8 +155,6 @@ div.centerbuttonp {
 	height:10%; 
 	margin:auto;
 	margin-bottom:10px;
-	padding-top: 10px;
-	padding-bottom: 10px;
 	width:50%;
 }
 
@@ -209,6 +220,10 @@ iframe {
     text-align: center;
   }
 
+  .standard {
+    font-size: 120%;
+  }
+
   .subtitle {
     font-size: 100%;
   }
@@ -258,6 +273,10 @@ iframe {
 
   .subtitle {
     font-size: 120%;
+  }
+
+  .standard {
+    font-size: 150%;
   }
 
   div.centerbuttonp {
