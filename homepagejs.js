@@ -66,5 +66,10 @@ function newIntro() {
     ];
 
   var randomIntro = Math.floor(Math.random() * intros.length);
-  document.getElementById('introDisplay').innerHTML = intros[randomIntro];
+	
+	function loadIntro(){
+		document.getElementById('introDisplay').innerHTML = intros[randomIntro];
+	}
+	
+	loadIntro();
 }

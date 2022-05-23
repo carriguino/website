@@ -129,6 +129,25 @@ div.navbar{
   border: ridge 10px hotpink;
 }
 
+.reloadbutton {
+  background: lightpink;
+	width:25px;
+	height:25px;
+	border-radius:100%;
+  color: black;
+  text-decoration: none;
+  box-shadow: 0px 0 5px black;
+  font-family: "cambria";
+  border: ridge 10px hotpink;
+	float:right;
+	margin-top:-5%;
+	margin-right:30%;
+}
+.reloadbutton:hover{
+	animation: rotation 1s ease infinite;
+}
+	
+
 .homebutton {
   cursor: pointer;
   position: relative;
@@ -202,6 +221,16 @@ iframe {
   width: 50px;
 
 }
+
+
+/*RELOAD ARROW*/
+
+@keyframes rotation {
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
 
 /*phones*/
 @media (max-width: 400px) {
