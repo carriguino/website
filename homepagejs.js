@@ -91,4 +91,16 @@ function newIntro() {
   animated.addEventListener("animationiteration", () => {
     loadIntro();
   });
+
+  const newsfeed = document.querySelector("div.newsfeed");
+  let animSpeed = 20;
+  let animTime = animSpeed.toString()+"s";
+  function speedUpAnim() {
+    animSpeed = animSpeed - (animSpeed/16);
+    animTime = animSpeed.toString()+"s";
+    document.getElementById("introDisplay").style.animationDuration = animTime;
+    console.log("registered : " + animTime);
+  }
+
+  newsfeed.addEventListener("click", speedUpAnim);
 }
