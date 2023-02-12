@@ -342,7 +342,6 @@ iframe {
 
 .marquee {
   white-space: nowrap;
-  text-align: center;
   color: white;
   font-size: 600%;
   font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
