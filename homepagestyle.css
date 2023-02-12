@@ -5,10 +5,10 @@ body {
   background-color: #60788F;
   background-repeat: no-repeat;
   background-position: center -37px;
-  background-image: -webkit-linear-gradient(270deg, rgba(96, 120, 143, 1.00) 42.49%, rgba(22, 38, 107, 0.00) 100%), url("portfolio/2021/selfportrait.png");
-  background-image: -moz-linear-gradient(270deg, rgba(96, 120, 143, 1.00) 42.49%, rgba(22, 38, 107, 0.00) 100%), url("portfolio/2021/selfportrait.png");
-  background-image: -o-linear-gradient(270deg, rgba(96, 120, 143, 1.00) 42.49%, rgba(22, 38, 107, 0.00) 100%), url("portfolio/2021/selfportrait.png");
-  background-image: linear-gradient(180deg, rgba(96, 120, 143, 1.00) 42.49%, rgba(22, 38, 107, 0.00) 100%), url("portfolio/2021/selfportrait.png");
+  background-image: -webkit-linear-gradient(270deg, rgba(96, 120, 143, 1.00) 42.49%, rgba(22, 38, 107, 0.00) 100%), url("portfolio/2023/selfportrait2023_forwebsite.png");
+  background-image: -moz-linear-gradient(270deg, rgba(96, 120, 143, 1.00) 42.49%, rgba(22, 38, 107, 0.00) 100%), url("portfolio/2023/selfportrait2023_forwebsite.png");
+  background-image: -o-linear-gradient(270deg, rgba(96, 120, 143, 1.00) 42.49%, rgba(22, 38, 107, 0.00) 100%), url("portfolio/2023/selfportrait2023_forwebsite.png");
+  background-image: linear-gradient(180deg, rgba(96, 120, 143, 1.00) 42.49%, rgba(22, 38, 107, 0.00) 100%), url("portfolio/2023/selfportrait2023_forwebsite.png");
 }
 
 .head {
@@ -340,48 +340,51 @@ iframe {
   }
 }
 
+div.newsfeed {
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-bottom: ridge 20px hotpink;
+}
 .marquee {
+  margin: 50px;
   white-space: nowrap;
   color: white;
   font-size: 600%;
-  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times,
+    "Times New Roman", "serif";
   text-transform: uppercase;
   -webkit-text-stroke: 2px black;
-  text-shadow:
-    3px 3px 0 #000,
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
-  -moz-animation: marquee 10s linear infinite;
-  -webkit-animation: marquee 10s linear infinite;
-  animation: marquee 10s linear infinite;
+  text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
+    -1px 1px 0 #000, 1px 1px 0 #000;
+  -moz-animation: marquee 20s linear infinite;
+  -webkit-animation: marquee 20s linear infinite;
+  animation: marquee 15s linear infinite;
+}
+@-moz-keyframes marquee {
+  0% {
+    transform: translateX(150%);
   }
-  @-moz-keyframes marquee {
-    0% {
-      transform: translateX(150%);
-    }
-    100% {
-      transform: translateX(-150%);
-    }
+  100% {
+    transform: translateX(-150%);
   }
-  @-webkit-keyframes marquee {
-    0% {
-      transform: translateX(150%);
-    }
-    100% {
-      transform: translateX(-150%);
-    }
+}
+@-webkit-keyframes marquee {
+  0% {
+    transform: translateX(150%);
   }
-  @keyframes marquee {
-    0% {
-      -moz-transform: translateX(150%);
-      -webkit-transform: translateX(150%);
-      transform: translateX(150%)
-    }
-    100% {
-      -moz-transform: translateX(-150%);
-      -webkit-transform: translateX(-150%);
-      transform: translateX(-150%);
-    }
+  100% {
+    transform: translateX(-150%);
   }
+}
+@keyframes marquee {
+  0% {
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(200%);
+    transform: translateX(125%);
+  }
+  100% {
+    -moz-transform: translateX(-200%);
+    -webkit-transform: translateX(-200%);
+    transform: translateX(-200%);
+  }
+}
