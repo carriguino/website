@@ -4,7 +4,11 @@ body {
 	padding: 0;
   background-color: #60788F;
   background-repeat: no-repeat;
-  background-position: center -37px;
+  background-position: center 0px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   background-image: -webkit-linear-gradient(270deg, rgba(96, 120, 143, 1.00) 42.49%, rgba(22, 38, 107, 0.00) 100%), url("portfolio/2023/selfportrait2023_forwebsite.png");
   background-image: -moz-linear-gradient(270deg, rgba(96, 120, 143, 1.00) 42.49%, rgba(22, 38, 107, 0.00) 100%), url("portfolio/2023/selfportrait2023_forwebsite.png");
   background-image: -o-linear-gradient(270deg, rgba(96, 120, 143, 1.00) 42.49%, rgba(22, 38, 107, 0.00) 100%), url("portfolio/2023/selfportrait2023_forwebsite.png");
