@@ -64,7 +64,7 @@ function newIntro() {
       'Enby\'s Paradise',
       'they/theminium infused',
       '<a target="_blank" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">1000 Free Robux</a>',
-      'You thought your header would but funny, but it was me, Dio!<image src="https://carriganreilly.com/imgsforhosting/dio.png" style="width:75px; vertical-align:-10%;"></image>', //dont worry im aware how painfully cringe this is
+      'You thought your header would be funny, but it was me, Dio!<image src="https://carriganreilly.com/imgsforhosting/dio.png" style="width:75px; vertical-align:-10%;"></image>', //dont worry im aware how painfully cringe this is
       'If you click some of these buttons, they will do things!',
       'itch.io more like itch.thanksforlettingmehostmygamesforfree',
       'what?',
