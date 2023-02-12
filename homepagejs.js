@@ -73,7 +73,7 @@ function newIntro() {
 	
 	loadIntro();
 
-  const animated = document.querySelector('h1.head2');
+  const animated = document.querySelector('h1.marquee');
   
   animated.addEventListener("animationiteration", () => {
     loadIntro();
