@@ -85,7 +85,7 @@ function newIntro() {
       '1312',
       '\"I am Error\" is actually intentional, but \"I am Bagu\" is a typo',
       'touch grass?',
-      'chicken is vegan?',
+      'chicken isn\'t vegan?',
       'We have blueberry, raspberry, ginseng, sleepy time, green tea, green tea with lemon, green tea with lemon and honey, liver disaster, ginger with honey, ginger without honey, vanilla almond, white truffel, blueberry chamomile, vanilla walnut, constant comment and... earl grey.',
       'Breaking out the L word',
       'I\'m in lesbians with you.',
