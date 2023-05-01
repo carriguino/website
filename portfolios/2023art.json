@@ -3,30 +3,30 @@
 		"title": "Niko-Niko (にこにこ)",
 		"type": "Personal & Classwork",
 		"date": "Feb 9, 2023",
-		"image": "https://carriganreilly.com/portfolios/personal/2023/selfportrait2023_forwebsite.png"
+		"image": "/portfolios/personal/2023/selfportrait2023_forwebsite.png"
 	},
 	"brandingbanner": {
 		"title": "Floating through my thoughts~",
 		"type": "Personal & Classwork",
 		"date": "Feb 9, 2023",
-		"image": "https://carriganreilly.com/portfolios/personal/2023/BrandingBanner_forweb.png"
+		"image": "/portfolios/personal/2023/BrandingBanner_forweb.png"
 	},
 	"maka": {
 		"title": "The Dark Side of the Moon",
 		"type": "Personal & Classwork",
 		"date": "Feb 9, 2023",
-		"image": "https://carriganreilly.com/portfolios/personal/2023/makablackblood_web.png"
+		"image": "/portfolios/personal/2023/makablackblood_web.png"
 	},
 	"sleepytime": {
 		"title": "Niko-Niko (にこにこ)",
-		"type": "Personal& Classwork",
+		"type": "Personal & Classwork",
 		"date": "Feb 9, 2023",
-		"image": "https://carriganreilly.com/portfolios/personal/2023/sleepytime_comp.png"
+		"image": "/portfolios/personal/2023/sleepytime_comp.png"
 	},
 	"offqueen": {
 		"title": "Have you filled your life with beauty?",
 		"type": "Off Fanart",
 		"date": "Feb 9, 2023",
-		"image": "https://carriganreilly.com/portfolios/personal/2023/offqueen_forweb.png"
+		"image": "/portfolios/personal/2023/offqueen_forweb.png"
 	}
 }

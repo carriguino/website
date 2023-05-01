@@ -1,0 +1,27 @@
+{
+	"BurgerJae": {
+		"title": "BurgerJae",
+		"type": "Joke Art",
+		"date": "2016",
+		"image": "/portfolios/personal/20162017/BurgerJae.png"
+	},
+	"LampDemon": {
+		"title": "The Demon of the Lamp",
+		"type": "Personal",
+		"date": "2016",
+		"image": "/portfolios/personal/20162017/LampDemon.png"
+	},
+	"PixelLampDemon": {
+		"title": "The Demon of the Lamp Alt",
+		"type": "Personal",
+		"date": "2016",
+		"image": "/portfolios/personal/20162017/PixelLampDemon.png"
+	},
+	"BloodiedHand": {
+		"title": "Keyart for Cheesecake Short Film",
+		"type": "Personal",
+		"date": "2017",
+		"image": "/portfolios/personal/20162017/BloodiedHand.png"
+	}
+	
+}

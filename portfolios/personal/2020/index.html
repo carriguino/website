@@ -39,6 +39,9 @@
 	<link rel="icon" type="image/png" href="/favicon.ico"> <!-- favicon -->
 	<script src="/navigation.js"></script> <!-- navigation -->
 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+	<script src="/portfolios/getJSON.js"></script>
+
 	<style>
 		body {
 			background-color: #5FB699;
@@ -67,54 +70,9 @@
 </head>
 
 <body>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 
 	<!--art pieces-->
-	<div class="artlayout">
-		<img class="myImg" src="MTA2020.png" alt="2020's Meet The Artist - Personal - Jan 14, 2020"
-			style="height:100%; max-height:300px">
-		<img class="myImg" src="JordanBday2020.png" alt="Purchase of a Lone God - Gift - Feb 19, 2020"
-			style="height:100%; max-height:300px">
-		<img class="myImg" src="Fired.PNG" alt="You're Fired - Gift - March 5, 2020"
-			style="height:100%; max-height:300px">
-		<img class="myImg" src="Fired2.PNG" alt="You're Fired (Alt) - Gift - March 5, 2020"
-			style="height:100%; max-height:300px">
-		<img class="myImg" src="Chara.PNG" alt=" A Genocidal Freak - Undertale Fanart - March 27, 2020"
-			style="height:100%; max-height:300px">
-		<img class="myImg" src="Gidjet.PNG" alt="Space Mechanic On Sight! - Gift - April 8, 2020"
-			style="height:100%; max-height:300px">
-		<img class="myImg" src="TheBugs.PNG" alt="The Bugs... - Mouth Sweet Fanart - April 13, 2020"
-			style="height:100%; max-height:300px">
-		<img class="myImg" src="TabithaSelfie.PNG" alt=":P (Sketch) - Personal - May 6, 2020"
-			style="height:100%; max-height:300px">
-		<img class="myImg" src="AriaBLM.PNG" alt="Aria - BLM Donation Headshot - June 5, 2020"
-			style="height:100%; max-height:300px">
-		<img class="myImg" src="NaomiBLM.PNG" alt="Naomi - BLM Donation Headshot - June 12, 2020"
-			style="height:100%; max-height:300px">
-		<img class="myImg" src="JillTrade1.PNG"
-			alt="<a class='insublink' href='https://twitter.com/slusheepop' target='_blank'>Slushee's</a> Lolipop Lady - Art Trade - June 19, 2020"
-			style="height:100%; max-height:300px">
-		<img class="myImg" src="JillTrade2.PNG"
-			alt="Filtered Alt for <a class='insublink' href='https://twitter.com/slusheepop'target='_blank'>Slushee's</a> Lolipop Lady - Art Trade - June 19, 2020"
-			style="height:100%; max-height:300px">
-		<img class="myImg" src="SoulEater1Redraw.PNG" alt="Soul Eater Manga Redraw - Soul Eater Fanart - July 13, 2020"
-			style="height:100%; max-height:300px">
-		<img class="myImg" src="Michirudoodle.PNG" alt="Michiru Doodle :) - Brand New Animal Fanart - July 17, 2020"
-			style="height:100%; max-height:300px">
-		<img class="myImg" src="CronaRedraw.PNG" alt="Demon Sword Meister: Crona - Soul Eater Fanart - Aug 6, 2020"
-			style="height:100%; max-height:300px">
-		<img class="myImg" src="ZacharieFloat.PNG"
-			alt="“Bis vincit, que se vincet in Victoria” - OFF Fanart - Aug 16, 2020"
-			style="height:100%; max-height:300px">
-		<img class="myImg" src="HazelNSonny.PNG"
-			alt="<a class='insublink' href='https://www.instagram.com/cartoonyluii/' target='_blank'>Cartoonyluii's</a> Hazel n' Sonny! - Art Trade - Aug 25, 2020"
-			style="height:100%; max-height:300px">
-		<img class="myImg" src="kief1.png" alt="Kief - Gift - Sept 22, 2020" style="height:100%; max-height:300px">
-		<img class="myImg" src="kief2.png" alt="Kief Alt - Gift - Sept 22, 2020" style="height:100%; max-height:300px">
-		<img class="myImg" src="femjae.PNG" alt="f!Jae - Personal - Nov 23, 2020" style="height:100%; max-height:300px">
-		<img class="myImg" src="theself.PNG" alt="The Self - Schoolwork - Dec 10, 2020"
-			style="height:100%; max-height:300px">
-	</div>
+	<div class="artlayout" id="2020"> </div>
 
 	<!-- Modal stuffs-->
 	<div id="myModal" class="modal">

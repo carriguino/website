@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <!-- HTML Meta Tags -->
-  <title> 2022 Portfolio | CARRIGANREILLY.COM </title>
+  <title> 2023 Portfolio | CARRIGANREILLY.COM </title>
   <meta name="description" content="Current works from this year!">
 
   <!-- Facebook Meta Tags -->
@@ -39,6 +39,9 @@
   <link rel="icon" type="image/png" href="/favicon.ico"> <!-- favicon -->
   <script src="/navigation.js"></script> <!-- navigation -->
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="/portfolios/getJSON.js"></script>
+
   <style>
     body {
       background-color: #cc74c0;
@@ -67,17 +70,10 @@
 </head>
 
 <body>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-
-  <!--art pieces-->
-  <div class="artlayout">
-    <img class="myImg" src="selfportrait2023_forwebsite.png" alt="Niko-Niko (ニコニコ) - Personal & Class - Feb 9, 2023" style="height:100%; max-height:300px">
-    <img class="myImg" src="BrandingBanner_forweb.png" alt="Floating through my thoughts~ - Personal & Class - Feb 15, 2023" style="height:100%; max-height:300px">
-    <img class="myImg" src="makablackblood_web.png" alt="The Dark Side of the Moon - Soul Eater Fanart - March 15, 2023" style="height:100%; max-height:300px">
-    <img class="myImg" src="sleepytime_comp.png" alt="Sleepytime - Personal & Class - March 28, 2023" style="height:100%; max-height:300px">
-    <img class="myImg" src="offqueen_forweb.png" alt="Have you filled your life with beauty? - OFF Fanart - April 29, 2023" style="height:100%; max-height:300px">
   
-  </div>
+  <!--art pieces-->
+  <div class="artlayout" id="2023"> </div>
+  
   <h1 class="subtitle">still updating!</h1>
 
   <!-- Modal stuffs-->

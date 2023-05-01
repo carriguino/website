@@ -39,6 +39,9 @@
 	<link rel="icon" type="image/png" href="/favicon.ico"> <!-- favicon -->
 	<script src="/navigation.js"></script> <!-- navigation -->
 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+	<script src="/portfolios/getJSON.js"></script>
+
 	<style>
 		body {
 			background-color: #E3748A;
@@ -67,51 +70,13 @@
 </head>
 
 <body>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 
 	<!--art pieces-->
-	<div class="artlayout">
-		<img class="myImg" src="jaegetstrolled.JPG" alt="Jae gets trolled :( - Jokes - Jan 11, 2021"
-			style="height:100%; max-height:300px">
-		<img class="myImg" src="spacethreats1.PNG" alt="Space Threats - Schoolwork - Jan 24, 2021"
-			style="height:100%; max-height:300px">
-		<img class="myImg" src="spacethreats2.PNG" alt="Space Threats alt - Schoolwork - Jan 24, 2021"
-			style="height:100%; max-height:300px">
-		<img class="myImg" src="legoselfportrait.PNG" alt="I am... Lego - Schoolwork - Jan 26, 2021"
-			style="height:100%; max-height:300px">
-		<img class="myImg" src="nightmare_house.png" alt="Nightmare House - Schoolwork - Feb 15, 2021"
-			style="height:100%; max-height:300px">
-		<img class="myImg" src="hallofknight.png" alt="The Knight (Sketch) - Hollow Knight Fanart - March 8, 2021"
-			style="height:100%; max-height:300px">
-		<img class="myImg" src="jennysketch.png" alt="jenny.. my beloved (Sketch) - MLAATR Fanart - March 22, 2021"
-			style="height:100%; max-height:300px">
-		<img class="myImg" src="Suburbia (1).PNG"
-			alt="The Degredation of Suburbia, Part 1 - Schoolwork - March 30, 2021"
-			style="height:100%; max-height:300px">
-		<img class="myImg" src="Suburbia (2).PNG"
-			alt="The Degredation of Suburbia, Part 2 - Schoolwork - March 30, 2021"
-			style="height:100%; max-height:300px">
-		<img class="myImg" src="Suburbia (3).PNG"
-			alt="The Degredation of Suburbia, Part 3 - Schoolwork - March 30, 2021"
-			style="height:100%; max-height:300px">
-		<img class="myImg" src="bree_conceptart.png" alt="Bree (OC) - Concept Art - April 3, 2021"
-			style="height:100%; max-height:300px">
-		<img class="myImg" src="shantae8mb.png" alt="Shantae! - Shantae Fanart - May 1, 2021"
-			style="height:100%; max-height:300px">
-		<img class="myImg" src="SKEWERBoardsFINALS.png" alt="SKEWER Storyboards - Schoolwork - April 10, 2021"
-			style="height:100%; max-height:300px">
-		<img class="myImg" src="WackyHijinks4Discord.png" alt="WackyHijinks - Commission - April 15, 2021"
-			style="height:100%; max-height:300px">
-		<img class="myImg" src="knifeddonniesigned.png" alt="Knifed Forest Kid, Donnie - Gift - July 24, 2021"
-			style="height:100%; max-height:300px">
-		<img class="myImg" src="selfportrait.png" alt="Self Portrait - Personal - July 29, 2021"
-			style="height:100%; max-height:300px">
+	<div class="artlayout"> <!-- vids -->
 		<iframe class="myImg" width="600" height="338" src="https://www.youtube.com/embed/foSoWNZNRYs"
 			title="YouTube video player" frameborder="0"
 			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 			allowfullscreen></iframe>
-		<img class="myImg" src="donnieclown4posting.png" alt="Clown Donnie (aka Clonnie) - Commission - October 6, 2021"
-			style="height:100%; max-height:300px">
 		<iframe class="myImg" width="600" height="338" src="https://www.youtube.com/embed/_DbZsAipXRg"
 			title="YouTube video player" frameborder="0"
 			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -120,10 +85,9 @@
 			title="YouTube video player" frameborder="0"
 			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 			allowfullscreen></iframe>
-		<img class="myImg" src="PennyCS.png"
-			alt="Penny! OC by <a class='insublink' href='https://www.instagram.com/corgipops/' target='_blank'>Corgipops</a> - Gift - December 20, 2021"
-			style="height:100%; max-height:300px">
 	</div>
+	<br>
+	<div class="artlayout" id="2021"> </div>
 
 	<!-- Modal stuffs-->
 	<div id="myModal" class="modal">
