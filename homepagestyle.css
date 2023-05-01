@@ -227,16 +227,6 @@ iframe {
 
 }
 
-
-/*RELOAD ARROW*/
-
-@keyframes rotation {
-  100% {
-    transform: rotate(-360deg);
-  }
-}
-
-
 /*phones*/
 @media (max-width: 400px) {
 
