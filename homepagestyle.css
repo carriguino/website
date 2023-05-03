@@ -1,7 +1,7 @@
 body {
   white-space: nowrap;
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
   background-color: #60788F;
   background-repeat: no-repeat;
   background-position: center -100px;
@@ -66,7 +66,7 @@ body {
   color: white;
   -webkit-text-stroke: .5 black;
   text-shadow:
-    3px 3px 0 #000,
+    2px 2px  #000,
     -1px -1px 0 #000,
     1px -1px 0 #000,
     -1px 1px 0 #000,
@@ -79,43 +79,44 @@ body {
   color: black;
 }
 
-div.standard{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+div.standard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
-div.navbar{
-	background: lightpink;
-	padding:10px;
-	display: flex;
-	flex-wrap:wrap;
-	flex-basis: auto;
-	align-items:center;
-	justify-content: space-evenly;
-	box-shadow: 0px 0 5px black;
-	font-family: "cambria";
-	border-bottom: ridge 10px hotpink;
+div.navbar {
+  background: lightpink;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: auto;
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow: 0px 0 5px black;
+  font-family: "cambria";
+  border-bottom: ridge 10px hotpink;
 }
 
-.navtextcenter{
-	
+.navtextcenter {
+
   text-align: center;
-	color: black;
-	font-size:250%;
-	text-decoration: none;
-	-webkit-text-stroke: .5 black;
-	text-shadow:
-	-1px -1px 0 white,
-	1px -1px 0  white,
-	-1px 1px 0  white,
-	1px 1px 0 white;
+  color: black;
+  font-size: 250%;
+  text-decoration: none;
+  -webkit-text-stroke: .5 black;
+  text-shadow:
+    -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white;
 }
-.navtext{
-	
+
+.navtext {
+
   text-align: center;
-	font-size:200%;
+  font-size: 200%;
   color: black;
   text-decoration: none;
 }
@@ -136,22 +137,23 @@ div.navbar{
 
 .reloadbutton {
   background: lightpink;
-	width:25px;
-	height:25px;
-	border-radius:100%;
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
   color: black;
   text-decoration: none;
   box-shadow: 0px 0 5px black;
   font-family: "cambria";
   border: ridge 10px hotpink;
-	float:right;
-	margin-top:-5%;
-	margin-right:30%;
+  float: right;
+  margin-top: -5%;
+  margin-right: 30%;
 }
-.reloadbutton:hover{
-	animation: rotation 1s ease infinite;
+
+.reloadbutton:hover {
+  animation: rotation 1s ease infinite;
 }
-	
+
 
 .homebutton {
   cursor: pointer;
@@ -159,27 +161,52 @@ div.navbar{
 }
 
 div.centerbuttonp {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-evenly;
-	align-self:center;
-	align-items: center;
-	width: 1000px;
-	height: auto;
-	margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-self: center;
+  align-items: center;
+  width: 1000px;
+  height: auto;
+  margin: auto;
 }
 
 .pinkwindow {
-	display:flex;
-		justify-content: space-evenly;
-	align-self:center;
-	align-items: center;
-	background: lightpink;
-	border: ridge 10px hotpink;
-	height:10%; 
-	margin:auto;
-	margin-bottom:10px;
-	width:50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-self: center;
+  align-items: center;
+  background: lightpink;
+  border: ridge 10px hotpink;
+  height: 10%;
+  margin: auto;
+  margin-bottom: 10px;
+  width: 50%;
+}
+
+table,
+th,
+td {
+  font-size: 130%;
+  /* border: 1px solid black ; */
+  font-family: "cambria";
+  color: black;
+  padding:20px;
+  text-indent: 50px;
+  white-space: normal;
+  overflow-wrap: break-word;
+  justify-content: space-evenly;
+  
+}
+
+table {
+  width: 90%;
+  border: ridge 10px hotpink;
+  margin: auto;
+  margin-bottom: 10px;
+  background: lightpink;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .button:hover {
@@ -269,15 +296,15 @@ iframe {
     font-size: 200%;
   }
 
-	div.navbar{
-		display:none;
-	}
-	
-	div.pinkwindow{
-		width:90%;
-		flex-wrap:wrap;
-			
-	}
+  div.navbar {
+    display: none;
+  }
+
+  div.pinkwindow {
+    width: 90%;
+    flex-wrap: wrap;
+
+  }
 
 }
 
@@ -310,10 +337,10 @@ iframe {
     height: auto;
     margin: auto;
   }
-	
-	div.pinkwindow{
-		width: 75%;
-	}
+
+  div.pinkwindow {
+    width: 75%;
+  }
 
   .button {
     padding: 25px 35px;
@@ -321,11 +348,12 @@ iframe {
     text-align: center;
     font-size: 200%;
   }
-	
-	.navtextcenter, .navtext{
-	font-size:175%;
-}
-	
+
+  .navtextcenter,
+  .navtext {
+    font-size: 175%;
+  }
+
 }
 
 @media (min-width: 1001px) {
@@ -339,6 +367,7 @@ div.newsfeed {
   background-color: rgba(0, 0, 0, 0.2);
   border-bottom: ridge 20px hotpink;
 }
+
 .marquee {
   margin: 50px;
   white-space: nowrap;
@@ -354,28 +383,34 @@ div.newsfeed {
   -webkit-animation: marquee 20s linear infinite;
   animation: marquee 15s linear infinite;
 }
+
 @-moz-keyframes marquee {
   0% {
     transform: translateX(150%);
   }
+
   100% {
     transform: translateX(-150%);
   }
 }
+
 @-webkit-keyframes marquee {
   0% {
     transform: translateX(150%);
   }
+
   100% {
     transform: translateX(-150%);
   }
 }
+
 @keyframes marquee {
   0% {
     -moz-transform: translateX(100%);
     -webkit-transform: translateX(200%);
     transform: translateX(125%);
   }
+
   100% {
     -moz-transform: translateX(-200%);
     -webkit-transform: translateX(-200%);
