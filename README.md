@@ -1,6 +1,6 @@
 # website
 basis for my website
-#[carrigan.netlify.com](carrigan.netlify.com)
+[carriganreilly.com](carriganreilly.com)
 
 updates whenever i remember and feel like updating, which is suprisingly often
 
