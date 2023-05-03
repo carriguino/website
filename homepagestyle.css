@@ -66,7 +66,7 @@ body {
   color: white;
   -webkit-text-stroke: .5 black;
   text-shadow:
-    2px 2px  #000,
+    2px 2px #000,
     -1px -1px 0 #000,
     1px -1px 0 #000,
     -1px 1px 0 #000,
@@ -191,12 +191,12 @@ td {
   /* border: 1px solid black ; */
   font-family: "cambria";
   color: black;
-  padding:20px;
+  padding: 20px;
   text-indent: 50px;
   white-space: normal;
   overflow-wrap: break-word;
   justify-content: space-evenly;
-  
+
 }
 
 table {
