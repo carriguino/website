@@ -1,4 +1,3 @@
-$(document).ready(function getJson() {
 
   //checking for 2023 ID
   if (document.getElementById("2023") != null) {
@@ -157,5 +156,3 @@ $(document).ready(function getJson() {
   }
 
 
-
-});

@@ -366,6 +366,7 @@ div.newsfeed {
   overflow: hidden;
   background-color: rgba(0, 0, 0, 0.2);
   border-bottom: ridge 20px hotpink;
+  user-select: none;
 }
 
 .marquee {
