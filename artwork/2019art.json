@@ -1,0 +1,86 @@
+{
+	"CaptNaut": {
+		"title": "Captain Nautilus",
+		"type": "Commission",
+		"date": "2019",
+		"image": "/artwork/2019/CaptNaut.png"
+	},
+	"ChubbyKitty": {
+		"title": "Chubby Kitty",
+		"type": "Personal",
+		"date": "2019",
+		"image": "/artwork/2019/ChubbyKitty.png"
+	},
+	"TabithaStand": {
+		"title": "Tabitha Takes the Stage!",
+		"type": "Personal",
+		"date": "2019",
+		"image": "/artwork/2019/TabithaStand.png"
+	},
+	"ZenasSecret": {
+		"title": "Zena's Dirty Secret",
+		"type": "Gift",
+		"date": "2019",
+		"image": "/artwork/2019/ZenasSecret.png"
+	},
+	"MTA2019": {
+		"title": "2019's Meet the Artist",
+		"type": "Personal",
+		"date": "2019",
+		"image": "/artwork/2019/MTA2019.png"
+	},
+	"EJMC": {
+		"title": "Elton John with a Minecraft Chicken",
+		"type": "Commission",
+		"date": "2019",
+		"image": "/artwork/2019/EJMC.png"
+	},
+	"Sad": {
+		"title": "Sad Thoughts Can Be Overwhelming",
+		"type": "Personal",
+		"date": "2019",
+		"image": "/artwork/2019/Sad.png"
+	},
+	"clipjae": {
+		"title": "Jae Makes His Clip Studio Debut",
+		"type": "Personal",
+		"date": "2019",
+		"image": "/artwork/2019/clipjae.png"
+	},
+	"Jae2019": {
+		"title": "Jae Enters 2019",
+		"type": "Personal",
+		"date": "2019",
+		"image": "/artwork/2019/Jae2019.jpg"
+	},
+	"Park": {
+		"title": "Parker",
+		"type": "Gift",
+		"date": "2019",
+		"image": "/artwork/2019/Park.png"
+	},
+	"selfdoodle": {
+		"title": "Self Doodle",
+		"type": "Personal",
+		"date": "2019",
+		"image": "/artwork/2019/selfdoodle.jpg"
+	},
+	"SkewerTeaser": {
+		"title": "Teaser for my (now defunct) comic, Skewer",
+		"type": "Personal",
+		"date": "2019",
+		"image": "/artwork/2019/SkewerTeaser.png"
+	},
+	"SusieDeltarune": {
+		"title": "Red Buster!",
+		"type": "Deltarune Fanart",
+		"date": "2019",
+		"image": "/artwork/2019/SusieDeltarune.png"
+	},
+	"ThrownBack": {
+		"title": "Can We Have All Interactions Through Email Please?!",
+		"type": "Classwork",
+		"date": "2019",
+		"image": "/artwork/2019/ThrownBack.jpeg"
+	}
+}
