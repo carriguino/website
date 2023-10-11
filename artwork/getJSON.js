@@ -12,11 +12,12 @@ if (document.getElementById("2023") != null) {
       img.className = "myImg";
       img.src = parsed[property].image;
       img.alt = parsed[property].title + " - " + parsed[property].type + " - " + parsed[property].date;
+      img.loading = "lazy";
       img.style = "height:100%; max-height:300px";
       document.getElementById("2023").appendChild(img);
     }
   }).fail(function () {
-    console.log("check your code")
+    console.log("2023 | check your code")
   })
 }
 
@@ -33,12 +34,13 @@ if (document.getElementById("2022") != null) {
       img.className = "myImg";
       img.src = parsed[property].image;
       img.alt = parsed[property].title + " - " + parsed[property].type + " - " + parsed[property].date;
+      img.loading = "lazy";
       img.style = "height:100%; max-height:300px";
       document.getElementById("2022").appendChild(img);
     }
 
   }).fail(function () {
-    console.log("check your code")
+    console.log("2022 | check your code")
   })
 }
 
@@ -56,12 +58,13 @@ if (document.getElementById("2021") != null) {
       img.className = "myImg";
       img.src = parsed[property].image;
       img.alt = parsed[property].title + " - " + parsed[property].type + " - " + parsed[property].date;
+      img.loading = "lazy";
       img.style = "height:100%; max-height:300px";
       document.getElementById("2021").appendChild(img);
     }
 
   }).fail(function () {
-    console.log("check your code")
+    console.log("2021 | check your code")
   })
 }
 
@@ -79,12 +82,13 @@ if (document.getElementById("2020") != null) {
       img.className = "myImg";
       img.src = parsed[property].image;
       img.alt = parsed[property].title + " - " + parsed[property].type + " - " + parsed[property].date;
+      img.loading = "lazy";
       img.style = "height:100%; max-height:300px";
       document.getElementById("2020").appendChild(img);
     }
 
   }).fail(function () {
-    console.log("check your code")
+    console.log("2020 | check your code")
   })
 }
 
@@ -102,12 +106,13 @@ if (document.getElementById("2019") != null) {
       img.className = "myImg";
       img.src = parsed[property].image;
       img.alt = parsed[property].title + " - " + parsed[property].type + " - " + parsed[property].date;
+      img.loading = "lazy"
       img.style = "height:100%; max-height:300px";
       document.getElementById("2019").appendChild(img);
     }
 
   }).fail(function () {
-    console.log("check your code")
+    console.log("2019 | check your code")
   })
 }
 
@@ -124,12 +129,13 @@ if (document.getElementById("2018") != null) {
       img.className = "myImg";
       img.src = parsed[property].image;
       img.alt = parsed[property].title + " - " + parsed[property].type + " - " + parsed[property].date;
+      img.loading = "lazy"
       img.style = "height:100%; max-height:300px";
       document.getElementById("2018").appendChild(img);
     }
 
   }).fail(function () {
-    console.log("check your code")
+    console.log("2018 | check your code")
   })
 }
 
@@ -147,11 +153,12 @@ if (document.getElementById("20162017") != null) {
       img.src = parsed[property].image;
       img.alt = parsed[property].title + " - " + parsed[property].type + " - " + parsed[property].date;
       img.style = "height:100%; max-height:300px";
+      img.loading = "lazy"
       document.getElementById("20162017").appendChild(img);
     }
 
   }).fail(function () {
-    console.log("check your code")
+    console.log("201617 | check your code")
   })
 }
 
