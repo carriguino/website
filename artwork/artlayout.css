@@ -9,36 +9,18 @@
   width: 80%;
   max-width: 700px;
   text-align: center;
-  color: #ccc;
+  color: black;
+  font-weight: bold;
+  /* text-transform: uppercase; */
   padding: 10px 0;
   height: 150px;
 }
 
-div.favorites {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 600px;
-  height: 150px;
-  margin: 25px;
-  left: 0px;
-  position: relative;
-}
-
-div.favimgs {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  width: 400px;
-  height: auto;
-  margin: 25px;
-  left: 100px;
-  position: relative;
-}
 
 .myImg {
   border-radius: 5px;
+  /* background: lightpink;
+  border: ridge 10px hotpink; */
   cursor: pointer;
   transition: 0.3s;
   margin: 10px;
@@ -65,20 +47,24 @@ div.favimgs {
 
 .modal-content {
   margin: auto;
+ 
   display: block;
-  height: 200%;
+  max-width: 75cqw;
   max-height: 700px;
+  margin-bottom: 1%;
 }
 
 #caption {
   margin: auto;
   display: block;
-  width: 80%;
-  max-width: 700px;
+  width: fit-content;
   text-align: center;
-  color: #ccc;
-  padding: 10px 0;
-  height: 150px;
+  color: black;
+  padding: 20px;
+  height: auto;
+
+  background: lightpink;
+  border: ridge 10px hotpink;
 }
 
 
@@ -109,7 +95,6 @@ div.favimgs {
     transform: scale(1)
   }
 }
-
 
 .close {
   position: absolute;
