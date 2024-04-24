@@ -1,3 +1,26 @@
+//just copy and paste with minor edits to add another year!
+
+//checking for 2024 ID
+if (document.getElementById("2024") != null) {
+  $.getJSON('/artwork/2024art.json', function (data) {
+    console.log(data);
+    var json = JSON.stringify(data);
+    var parsed = JSON.parse(json);
+    console.log(Object.keys(parsed).length)
+    for (const property in parsed) {
+      console.log(parsed[property]);
+      var img = document.createElement("img");
+      img.className = "myImg";
+      img.src = parsed[property].image;
+      img.alt = parsed[property].title + " - " + parsed[property].type + " - " + parsed[property].date;
+      img.loading = "lazy";
+      img.style = "height:100%; max-height:300px";
+      document.getElementById("2024").appendChild(img);
+    }
+  }).fail(function () {
+    console.log("2024 | check your code")
+  })
+}
 
 //checking for 2023 ID
 if (document.getElementById("2023") != null) {

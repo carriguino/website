@@ -28,5 +28,11 @@
 		"type": "Off Fanart & Classwork",
 		"date": "Feb 9, 2023",
 		"image": "/artwork/2023/offqueen_forweb.png"
+	},
+	"circusmap": {
+		"title": "DND Circus Map?",
+		"type": "Classwork/DND Campaign",
+		"date": "Nov 17, 2023",
+		"image": "/artwork/2023/circusmap_final.png"
 	}
 }
