@@ -2,18 +2,24 @@ body {
   white-space: normal;
   margin: 0;
   padding: 0;
-  background-color: #60788F;
   background-repeat: no-repeat;
-  background-position: center -100px;
+  background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-image: -webkit-linear-gradient(270deg, rgba(96, 120, 143, 1.00) 42.49%, rgba(22, 38, 107, 0.00) 100%), url("artwork/2023/selfportrait2023_forwebsite.png");
-  background-image: -moz-linear-gradient(270deg, rgba(96, 120, 143, 1.00) 42.49%, rgba(22, 38, 107, 0.00) 100%), url("artwork/2023/selfportrait2023_forwebsite.png");
-  background-image: -o-linear-gradient(270deg, rgba(96, 120, 143, 1.00) 42.49%, rgba(22, 38, 107, 0.00) 100%), url("artwork/2023/selfportrait2023_forwebsite.png");
-  background-image: linear-gradient(180deg, rgba(96, 120, 143, 1.00) 42.49%, rgba(22, 38, 107, 0.00) 100%), url("artwork/2023/selfportrait2023_forwebsite.png");
+  background-attachment: fixed;
+  /* background-image: -webkit-linear-gradient(270deg, rgb(240, 185, 211) 42.49%, rgba(22, 38, 107, 0.00) 100%), url("artwork/2023/selfportrait2023_forwebsite.png");
+  background-image: -moz-linear-gradient(270deg, rgb(240, 185, 211) 42.49%, rgba(22, 38, 107, 0.00) 100%), url("artwork/2023/selfportrait2023_forwebsite.png");
+  background-image: -o-linear-gradient(270deg, rgb(240, 185, 211) 42.49%, rgba(22, 38, 107, 0.00) 100%), url("artwork/2023/selfportrait2023_forwebsite.png");
+  background-image: linear-gradient(180deg, rgb(248, 192, 217) 2%,  rgb(235, 155, 192) 40%, rgb(255, 133, 190) 60%, rgb(187, 108, 145) 200%); */
+
+    background-image: -webkit-linear-gradient(270deg, rgb(77, 15, 158) 42.49%, rgba(22, 38, 107, 0.00) 100%), url("artwork/2023/selfportrait2023_forwebsite.png");
+  background-image: -moz-linear-gradient(270deg, rgb(77, 15, 158) 42.49%, rgba(22, 38, 107, 0.00) 100%), url("artwork/2023/selfportrait2023_forwebsite.png");
+  background-image: -o-linear-gradient(270deg, rgb(77, 15, 158) 42.49%, rgba(22, 38, 107, 0.00) 100%), url("artwork/2023/selfportrait2023_forwebsite.png");
+  background-image: linear-gradient(180deg, rgb(77, 15, 158) 42.49%, rgba(22, 38, 107, 0.00) 100%), url("artwork/2023/selfportrait2023_forwebsite.png"); 
 }
+
 
 .head {
   text-align: center;
@@ -121,11 +127,52 @@ div.navbar {
   text-decoration: none;
 }
 
+div.maincolumns {
+  width:100%;
+  height:95%;
+  min-height:95%;
+  display:inline-flex;
+  position: absolute;
+  outline:3px solid red;
+}
+
+.leftcolumn,.rightcolumn {
+  outline:2px solid green;
+  min-height: 100%;
+  display: inline-block;
+}
+
+.leftcolumn {
+  width: 35%;
+  background-color: white;
+}
+
+.rightcolumn {
+  width: 70%;
+  background-color: grey;
+  
+}
+
+.panel{
+  background-color: #aa7f97;
+  width:400px;
+  height:400px;
+  float:left;
+}
+
+div.centerbuttonp {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  padding-top: 10%;
+  margin: auto;
+}
+
 .button {
   background: lightpink;
-  padding: 25px 35px;
+  padding: 15px 25px;
   text-align: center;
-  margin: 10px;
+  margin: 5px;
   display: inline-block;
   color: black;
   text-decoration: none;
@@ -136,40 +183,13 @@ div.navbar {
   object-fit: fill
 }
 
-.reloadbutton {
-  background: lightpink;
-  width: 25px;
-  height: 25px;
-  border-radius: 100%;
-  color: black;
-  text-decoration: none;
-  box-shadow: 0px 0 5px black;
-  font-family: "cambria";
-  border: ridge 10px hotpink;
-  float: right;
-  margin-top: -5%;
-  margin-right: 30%;
-}
 
-.reloadbutton:hover {
-  animation: rotation 1s ease infinite;
-}
+
 
 
 .homebutton {
   cursor: pointer;
   position: relative;
-}
-
-div.centerbuttonp {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-self: center;
-  align-items: center;
-  width: 1000px;
-  height: auto;
-  margin: auto;
 }
 
 .pinkwindow {
@@ -291,7 +311,7 @@ iframe {
 
   .button {
     padding: 25px 35px;
-    margin: 20px;
+    margin: 10px;
     text-align: center;
     display: block;
     font-size: 200%;
@@ -365,25 +385,24 @@ iframe {
 
 div.newsfeed {
   overflow: hidden;
-  background-color: rgba(0, 0, 0, 0.2);
-  border-bottom: ridge 20px hotpink;
+  /* background-color: rgba(230, 230, 230, 0.247); */
+  background-image: linear-gradient(180deg, rgb(247, 214, 229) .5%,  rgb(219, 141, 177) 20%, rgb(235, 155, 192) 80%, rgb(228, 124, 181) 90%, rgb(255, 133, 190) 105%, rgb(187, 108, 145) 250%);
+  /* border-bottom: ridge 7px rgb(255, 147, 201); */
   user-select: none;
 }
 
 .marquee {
-  margin: 50px;
+  margin-top: -4px;
+  margin-bottom: -5px;
   white-space: nowrap;
-  color: white;
-  font-size: 600%;
-  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times,
-    "Times New Roman", "serif";
+  color: rgb(236, 236, 236);
+  text-shadow: 0px 2px #aa7f97;
+  font-size: 50px;
+  font-family: "Dongle";
   text-transform: uppercase;
-  -webkit-text-stroke: 2px black;
-  text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
-    -1px 1px 0 #000, 1px 1px 0 #000;
-  -moz-animation: marquee 20s linear infinite;
-  -webkit-animation: marquee 20s linear infinite;
-  animation: marquee 15s linear infinite;
+  -moz-animation: marquee 35s linear infinite;
+  -webkit-animation: marquee 35s linear infinite;
+  animation: marquee 30s linear infinite;
 }
 
 @-moz-keyframes marquee {
