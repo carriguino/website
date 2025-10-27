@@ -143,22 +143,17 @@ div.maincolumns {
 }
 
 .leftcolumn {
-  width: 35%;
+  min-width: 35%;
   background-color: white;
 }
 
 .rightcolumn {
-  width: 70%;
+  min-width: 65%;
   background-color: grey;
   
 }
 
-.panel{
-  background-color: #aa7f97;
-  width:400px;
-  height:400px;
-  float:left;
-}
+
 
 div.centerbuttonp {
   display: flex;
@@ -167,6 +162,38 @@ div.centerbuttonp {
   padding-top: 10%;
   margin: auto;
 }
+
+.featured {
+  display: inline-flex;
+  width:auto;;
+  max-height: 100%;
+  overflow: scroll;
+  flex-direction: column;
+}
+
+.panel{
+  background-color: #aa7f97;
+  width:90%;
+  max-height:400px;
+  min-height:400px;
+  margin: auto;
+  margin-top:10px;
+  margin-bottom: 10px;
+  display:inline-flex
+}
+
+.panelArt{
+  max-width: 800px;
+  margin: auto;
+  display: inline-flex;
+}
+
+.panelInfo{
+  display: inline-flex;
+  outline:auto;
+}
+
+
 
 .button {
   background: lightpink;
