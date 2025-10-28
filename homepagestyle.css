@@ -9,15 +9,12 @@ body {
   -o-background-size: cover;
   background-size: cover;
   background-attachment: fixed;
-  /* background-image: -webkit-linear-gradient(270deg, rgb(240, 185, 211) 42.49%, rgba(22, 38, 107, 0.00) 100%), url("artwork/2023/selfportrait2023_forwebsite.png");
-  background-image: -moz-linear-gradient(270deg, rgb(240, 185, 211) 42.49%, rgba(22, 38, 107, 0.00) 100%), url("artwork/2023/selfportrait2023_forwebsite.png");
-  background-image: -o-linear-gradient(270deg, rgb(240, 185, 211) 42.49%, rgba(22, 38, 107, 0.00) 100%), url("artwork/2023/selfportrait2023_forwebsite.png");
-  background-image: linear-gradient(180deg, rgb(248, 192, 217) 2%,  rgb(235, 155, 192) 40%, rgb(255, 133, 190) 60%, rgb(187, 108, 145) 200%); */
-
+  background-color: #e0dfe0;
+  /* 
     background-image: -webkit-linear-gradient(270deg, rgb(77, 15, 158) 42.49%, rgba(22, 38, 107, 0.00) 100%), url("artwork/2023/selfportrait2023_forwebsite.png");
   background-image: -moz-linear-gradient(270deg, rgb(77, 15, 158) 42.49%, rgba(22, 38, 107, 0.00) 100%), url("artwork/2023/selfportrait2023_forwebsite.png");
   background-image: -o-linear-gradient(270deg, rgb(77, 15, 158) 42.49%, rgba(22, 38, 107, 0.00) 100%), url("artwork/2023/selfportrait2023_forwebsite.png");
-  background-image: linear-gradient(180deg, rgb(77, 15, 158) 42.49%, rgba(22, 38, 107, 0.00) 100%), url("artwork/2023/selfportrait2023_forwebsite.png"); 
+  background-image: linear-gradient(180deg, rgb(77, 15, 158) 42.49%, rgba(22, 38, 107, 0.00) 100%), url("artwork/2023/selfportrait2023_forwebsite.png");  */
 }
 
 
@@ -133,11 +130,11 @@ div.maincolumns {
   min-height:95%;
   display:inline-flex;
   position: absolute;
-  outline:3px solid red;
+  /* outline:3px solid red; */
 }
 
 .leftcolumn,.rightcolumn {
-  outline:2px solid green;
+  /* outline:2px solid green; */
   min-height: 100%;
   display: inline-block;
 }
@@ -149,8 +146,8 @@ div.maincolumns {
 
 .rightcolumn {
   min-width: 65%;
-  background-color: grey;
   
+  scrollbar-width: 200px;
 }
 
 
@@ -165,35 +162,106 @@ div.centerbuttonp {
 
 .featured {
   display: inline-flex;
-  width:auto;;
+  width:100%;
   max-height: 100%;
   overflow: scroll;
   flex-direction: column;
 }
 
-.panel{
-  background-color: #aa7f97;
-  width:90%;
+.panel, .panelR{
+  
+  max-width: 100%;
   max-height:400px;
   min-height:400px;
-  margin: auto;
   margin-top:10px;
   margin-bottom: 10px;
-  display:inline-flex
+  position: relative;
+  display:inline-flex;
 }
 
+.panel{
+  margin-right: auto;
+  margin-left: 10%;
+}
+.panelR{
+  margin-left: auto;
+  margin-right: 10%;
+}
+
+
 .panelArt{
-  max-width: 800px;
+  background-color: #aa7f97;
+  padding: 1%;
+  border: ridge 10px hotpink;
+  max-height: 600px;
+  max-width:67%;
   margin: auto;
+  margin-left: 0;
+  margin-right: 0%;
   display: inline-flex;
+  box-shadow: 0px 10px 10px rgb(114, 114, 114);
+  
 }
 
 .panelInfo{
   display: inline-flex;
-  outline:auto;
+  /* outline:2px solid orange; */
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding-left: 1%;
+  padding-right: 1%;
+  height: fit-content;
+  margin-top: 300px;
+  width: 1000px;
+  
+}
+
+h1, h3{
+  /* outline:2px solid green; */
+  width: 100%;
+  height: fit-content;
+  margin: auto;
+ 
+}
+
+h1R{
+ display: block;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  text-align: right;
+  width: 100%;
+  height: fit-content;
+ margin: auto;
+}
+
+h3R{
+  display: block;
+  font-size: 1.17em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  text-align: right;
+  width: 100%;
+  height: fit-content;
+ margin:auto;
+
 }
 
 
+p{
+  /* outline:2px solid green; */
+  margin: auto;
+  
+  width: 100%;
+  height: fit-content;
+   margin-bottom: 1%;
+}
 
 .button {
   background: lightpink;

@@ -40,5 +40,17 @@
 		"type": "Classwork",
 		"date": "Apr 9, 2024",
 		"image": "/artwork/2024/CReilly_Project3_Final.jpg"
+	},
+	"ARS_Explode_Promo": {
+		"title": "Ayla's Repair Shop: GameGirl",
+		"type": "Ayla's Repair Shop",
+		"date": "Apr 12, 2024",
+		"image": "/artwork/2024/ARS_Explode_Promo.gif"
+	},
+	"digdog4gia": {
+		"title": "Digdog!",
+		"type": "Gift for <a class='insublink' href='https://www.instagram.com/ohgeeia' target='_blank'>Gia</a>",
+		"date": "Sept. 17, 2024",
+		"image": "/artwork/2024/digdog4gia_notext.png"
 	}
 }
