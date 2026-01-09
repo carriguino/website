@@ -52,9 +52,9 @@
 
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<div class="newsfeed">
+	<!-- <div class="newsfeed">
 		<h1 class="marquee" id="introDisplay">GENERATING...</h1>
-	</div>
+	</div> -->
 	<!-- <h1 class="subheader">Thanks for visitng my portfolio website! Take a look around and enjoy!</h1> -->
 
 </head>
@@ -62,26 +62,52 @@
 <body>
 	<div class="maincolumns">
 		<div class="leftcolumn">
-			<img src="website_self.png" style="width: 50%; display: block; margin: auto;">
-			<div class="centerbuttonp">
+			<img src="/imgsforhosting/websitelogo.png" style="width: 90%; display: block; margin: auto; margin-top: 10%; margin-bottom: -5%;">
+			<div class="centerbuttonp" style="width: 100%;">
 				<a class="button" href="/portfolio">Portfolio</a>
 				<a class="button" href="/archive/">Archive</a>
 				<a class="button" target="_blank" href="https://carrigann.itch.io/">&#8673; Games!</a>
 				<a class="button" href="/about"> About me! </a>
 				<a class="button" href="/commissions"> Interested in a commission? </a>
-				<a class="button" target="_blank" href="https://forms.gle/V8c4QqGo328GDpBq6">&#8673; Feedback / Bug
-					Report </a>
+
+				<div style=" display:flex; flex-direction: row; text-align: center; font-size: small; margin-top: 3%;">
+					<h3 target="_blank" href="https://forms.gle/V8c4QqGo328GDpBq6">&#8673; Feedback / Bug
+						Report </a>
+					<h3 href="#" onclick="window.displayPreferenceModal();return false;"
+						id="termly-consent-preferences">Consent
+						Preferences</a>
+				</div>
 			</div>
 		</div>
 		<div class="rightcolumn">
-<h1> </h1>
-			<img src="website-featured.png" style="width: 50%; display: flex; margin-left: auto; margin-top: 3%; margin-bottom: -20%; rotate: 20deg;">
 			<div class="featured">
-				<div class="centerbuttonp" style="padding-top: 3%; padding-bottom:3%;">
-					<h1 class="subheader"> AYLA'S REPAIR SHOP, OUT NOW!</h1>
-					<iframe class="button" style="margin:auto; padding:0;" frameborder="0"
-						src="https://itch.io/embed/2418951?border_width=0&amp;bg_color=325c88&amp;fg_color=ffffff&amp;link_color=d172b2&amp;border_color=325c88"
-						width="550" height="165"><a href="https://carrigann.itch.io/aylas-repair-shop">Ayla's Repair Shop by carrigan__</a></iframe>
+				<div class="centerbuttonp" style="padding-top: 3%; padding-bottom:3%; flex-direction: row; scale:60%">
+
+
+
+					<iframe style="padding:0; margin:auto; width:50%; aspect-ratio: 4/3; z-index: 5;" class="panelMedia"
+						src="https://www.youtube.com/embed/RuSWNKNH1U4" title="Ayla&#39;s Repair Shop Trailer"
+						frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+						referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+					<div
+						style="width: 50%; padding: 2%; background-color: rgb(93, 93, 93); height: 95%; margin: auto; box-shadow: 0 0 10px black;">
+						<h1><a target="_blank" href="https://carrigann.itch.io/aylas-repair-shop">Ayla's Repair Shop</a> is a tech-repair simulation game where you repair broken game consoles!
+						</h1>
+						<h1>This game is still in ongoing development! <br> <br>Check out my Patreon to access early
+							builds, behind-the-scenes content, and more!</h1><br>
+						<div class="panelMedia" style="width: 90%; scale: 80%; padding: 0%; margin-left: -10%;">
+							<div class="iframely-embed">
+								<div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a
+										href="https://www.patreon.com/cw/carrigan"
+										data-iframely-url="https://iframely.net/9Sk00bYa?card=small&theme=dark"></a>
+								</div>
+							</div>
+							<script async src="https://iframely.net/embed.js"></script>
+						</div>
+					</div>
+
+
 				</div>
 
 				<div class="panel" style="flex-direction: column;">
@@ -91,7 +117,12 @@
 						<h3>Feb 9, 2023</h3>
 					</div>
 				</div>
-
+				<div class="centerbuttonp" style="padding-top: 3%; padding-bottom:3%;">
+					<iframe class="panelMedia" style="margin:auto; padding:0;" frameborder="0"
+						src="https://itch.io/embed/3925507?linkback=true&amp;border_width=0&amp;bg_color=306850&amp;fg_color=ffffff&amp;link_color=e0f8cf&amp;border_color=306850"
+						width="550" height="165"><a href="https://carrigann.itch.io/sodas-house">Soda’s House by
+							carrigan__</a></iframe>
+				</div>
 				<div class="panelR">
 					<div class="panelInfo">
 						<h1R>Have you filled your life with beauty?</h1R>
@@ -100,17 +131,18 @@
 					<img class="panelArt" src="artwork/2023/offqueen_forweb.png">
 				</div>
 
-				<iframe style="padding:0; margin:auto; margin-top:20%; width:50%; aspect-ratio: 16/9;" class="button"
-					src="https://www.youtube.com/embed/LsM8z-g7RDY?si=CMtM6Iy8dR9dNLru" title="Brainventure"
-					frameborder="0"
+				<iframe style="padding:0; margin:auto; margin-top:20%; width:50%; aspect-ratio: 16/9;"
+					class="panelMedia" src="https://www.youtube.com/embed/LsM8z-g7RDY?si=CMtM6Iy8dR9dNLru"
+					title="Brainventure" frameborder="0"
 					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 					referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-				<div class="centerbuttonp" style="width:70%; margin-top:-5%; display: flex; margin-bottom:5%;  width:auto; flex-direction: row;">
+				<div class="centerbuttonp"
+					style="width:70%; margin-top:-5%; display: flex; margin-bottom:5%;  width:auto; flex-direction: row;">
 					<a href="https://purrfectemployee.com/" target="_blank">
-						<img class="button" style="padding:0;" frameborder="0"
+						<img class="panelMedia" style="padding:0;" frameborder="0"
 							src="/imgsforhosting/purrfect_thumbnail.png" width="550" height="165"></a>
-					<iframe class="button" style="padding:0;" frameborder="0"
+					<iframe class="panelMedia" style="padding:0;" frameborder="0"
 						src="https://itch.io/embed/1828968?linkback=true&amp;border_width=0&amp;bg_color=86c06c&amp;fg_color=222222&amp;link_color=e0f8cf&amp;border_color=86c06c"
 						width="550" height="165"><a href="https://carrigann.itch.io/mailroom">Mailroom by
 							carrigan__</a></iframe>
@@ -128,10 +160,10 @@
 
 				<div class="panelR">
 					<div class="panelInfo">
-						<h1R>Have you filled your life with beauty?</h1R>
-						<h3R>April 29,2023</h3R>
+						<h1R>Niko-Niko (にこにこ)</h1R>
+						<h3R>Feb 9,2023</h3R>
 					</div>
-					<img class="panelArt" src="artwork/2023/offqueen_forweb.png">
+					<img class="panelArt" src="artwork/2023/selfportrait2023_forwebsite.png">
 				</div>
 
 
@@ -139,6 +171,8 @@
 
 		</div>
 	</div>
+
+
 
 
 
@@ -170,10 +204,7 @@
 			<img class="sm_icon" alt="youtube" src="imgsforhosting/youtube.png">
 		</a>
 	</div>
-	<div class="pinkwindow" style="padding-top: 10px; padding-bottom: 10px; width:20%;">
-		<a href="#" onclick="window.displayPreferenceModal();return false;" id="termly-consent-preferences">Consent
-			Preferences</a>
-	</div>
+	
 	<h1 class="subtitle" style="font-size:100%;"> ( i'm building this website from scratch as a personal project, so
 		apologies if its messy! )
 		<br>feedback welcome!
