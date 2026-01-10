@@ -157,20 +157,23 @@ div.maincolumns {
 
 .leftcolumn,
 .rightcolumn {
-  /* outline:2px solid green; */
   min-height: 100%;
-  display: inline-block;
+  
 }
 
 .leftcolumn {
+  display: inline-block;
   width:20%;
   min-width: 20%;
   background-color: rgb(66, 66, 66);
 }
 
 .rightcolumn {
-  min-width: auto;
+  outline:2px solid green;
+  width: 100%;
   scrollbar-width: 200px;
+  display: inline-flex;
+  flex-direction: column;
 }
 
 
@@ -185,10 +188,7 @@ div.centerbuttonp {
 
 .featured {
   display: inline-flex;
-  width: 100%;
   max-height: 100%;
-  overflow: scroll;
-  flex-direction: column;
 }
 
 .featuredText {
@@ -201,19 +201,17 @@ div.centerbuttonp {
 
 .panel,
 .panelR {
-
-  max-width: 100%;
+  border: 1px solid  red ;
   max-height: 400px;
-  min-height: 400px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  max-width:fit-content;
+  margin: auto;
   position: relative;
-  display: inline-flex;
+  display: flex;
+  flex-direction: column;
 }
 
 .panel {
-  margin-right: auto;
-  margin-left: 10%;
+  width: fit-content;
 }
 
 .panelR {
@@ -221,18 +219,28 @@ div.centerbuttonp {
   margin-right: 10%;
 }
 
+.artcolumn{
+  border: 1px solid yellow;
+  display: flex;
+  height: fit-content;
+  flex-direction: column;
+}
 
 .panelArt {
   background-color: #aa7f97;
-  border: ridge 5px rgb(212, 146, 179);
-  max-height: 600px;
-  max-width: 67%;
-  margin: auto;
-  margin-left: 0;
-  margin-right: 0%;
-  display: inline-flex;
+max-height: fit-content;
+max-width: 500px;
+min-height: 0px;
+  margin: 1px;
   box-shadow: 0px 10px 10px rgb(16, 16, 16);
+  transition: .25s;
+  z-index: 0;
+}
 
+.panelArt:hover
+{
+  z-index: 10;
+  scale: 1.1;
 }
 
 .panelMedia{
@@ -251,6 +259,7 @@ div.centerbuttonp {
 }
 
 .panelInfo {
+  border: 1px solid green;
   display: inline-flex;
   /* outline:2px solid orange; */
   flex-wrap: wrap;
@@ -259,7 +268,7 @@ div.centerbuttonp {
   padding-right: 1%;
   height: fit-content;
   margin-top: 300px;
-  width: 1000px;
+  width: fit-content;
 
 }
 
