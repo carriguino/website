@@ -1,5 +1,49 @@
 //just copy and paste with minor edits to add another year!
 
+//checking for 2026 ID
+if (document.getElementById("2026") != null) {
+  $.getJSON('/artwork/2026art.json', function (data) {
+    console.log(data);
+    var json = JSON.stringify(data);
+    var parsed = JSON.parse(json);
+    console.log(Object.keys(parsed).length)
+    for (const property in parsed) {
+      console.log(parsed[property]);
+      var img = document.createElement("img");
+      img.className = "myImg";
+      img.src = parsed[property].image;
+      img.alt = parsed[property].title + " - " + parsed[property].type + " - " + parsed[property].date;
+      img.loading = "lazy";
+      img.style = "height:100%; max-height:300px";
+      document.getElementById("2026").appendChild(img);
+    }
+  }).fail(function () {
+    console.log("2026 | check your code")
+  })
+}
+
+//checking for 2025 ID
+if (document.getElementById("2025") != null) {
+  $.getJSON('/artwork/2025art.json', function (data) {
+    console.log(data);
+    var json = JSON.stringify(data);
+    var parsed = JSON.parse(json);
+    console.log(Object.keys(parsed).length)
+    for (const property in parsed) {
+      console.log(parsed[property]);
+      var img = document.createElement("img");
+      img.className = "myImg";
+      img.src = parsed[property].image;
+      img.alt = parsed[property].title + " - " + parsed[property].type + " - " + parsed[property].date;
+      img.loading = "lazy";
+      img.style = "height:100%; max-height:300px";
+      document.getElementById("2025").appendChild(img);
+    }
+  }).fail(function () {
+    console.log("2025 | check your code")
+  })
+}
+
 //checking for 2024 ID
 if (document.getElementById("2024") != null) {
   $.getJSON('/artwork/2024art.json', function (data) {

@@ -1,0 +1,51 @@
+.verticalLine
+{
+    width:10px;
+    border-radius: 5px;
+    height: 100px;
+    background-color: black;
+    margin-top: 10%;
+    z-index: -1;
+}
+
+.timeline{
+    margin: auto;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid yellow;
+}
+
+.archiveButton{
+    width: 100px;
+background: rgb(86, 52, 29);
+  padding: 15px 25px;
+  writing-mode: vertical-lr;
+  text-orientation:upright;
+  text-align: center;
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 200%;
+  font-family: "cambria";
+  object-fit: fill;
+
+  transition: 0.05s;
+}
+
+.book{
+    margin-left: -50px;
+}
+
+.book:hover{
+    transform: translateY(50px);
+
+}
+
+.booktop{
+    background-color: green;
+    clip-path: polygon(0% 0%,10% 10%,20% 20%, 30% 30%);
+    width: 500px;
+    height: 100px;
+    
+}

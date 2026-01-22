@@ -240,7 +240,7 @@ min-height: 0px;
 .panelArt:hover
 {
   z-index: 10;
-  scale: 1.1;
+  scale: .95;
 }
 
 .panelMedia{
@@ -381,10 +381,8 @@ td {
 
 table {
   width: 90%;
-  border: ridge 5px hotpink;
   margin: auto;
   margin-bottom: 10px;
-  background: lightpink;
   display: flex;
   justify-content: space-evenly;
 }
