@@ -2,7 +2,7 @@
 
 //checking for 2026 ID
 if (document.getElementById("2026") != null) {
-  $.getJSON('/artwork/2026art.json', function (data) {
+  $.getJSON('/json/2026.json', function (data) {
     console.log(data);
     var json = JSON.stringify(data);
     var parsed = JSON.parse(json);
@@ -24,7 +24,7 @@ if (document.getElementById("2026") != null) {
 
 //checking for 2025 ID
 if (document.getElementById("2025") != null) {
-  $.getJSON('/artwork/2025art.json', function (data) {
+  $.getJSON('/json/2025.json', function (data) {
     console.log(data);
     var json = JSON.stringify(data);
     var parsed = JSON.parse(json);
@@ -46,7 +46,7 @@ if (document.getElementById("2025") != null) {
 
 //checking for 2024 ID
 if (document.getElementById("2024") != null) {
-  $.getJSON('/artwork/2024art.json', function (data) {
+  $.getJSON('/json/2024.json', function (data) {
     console.log(data);
     var json = JSON.stringify(data);
     var parsed = JSON.parse(json);
@@ -68,7 +68,7 @@ if (document.getElementById("2024") != null) {
 
 //checking for 2023 ID
 if (document.getElementById("2023") != null) {
-  $.getJSON('/artwork/2023art.json', function (data) {
+  $.getJSON('/json/2023.json', function (data) {
     console.log(data);
     var json = JSON.stringify(data);
     var parsed = JSON.parse(json);
@@ -90,7 +90,7 @@ if (document.getElementById("2023") != null) {
 
 //checking for 2022 ID
 if (document.getElementById("2022") != null) {
-  $.getJSON('/artwork/2022art.json', function (data) {
+  $.getJSON('/json/2022.json', function (data) {
     console.log(data);
     var json = JSON.stringify(data);
     var parsed = JSON.parse(json);
@@ -114,7 +114,7 @@ if (document.getElementById("2022") != null) {
 
 //checking for 2021 ID
 if (document.getElementById("2021") != null) {
-  $.getJSON('/artwork/2021art.json', function (data) {
+  $.getJSON('/json/2021.json', function (data) {
     console.log(data);
     var json = JSON.stringify(data);
     var parsed = JSON.parse(json);
@@ -138,7 +138,7 @@ if (document.getElementById("2021") != null) {
 
 //checking for 2020 ID
 if (document.getElementById("2020") != null) {
-  $.getJSON('/artwork/2020art.json', function (data) {
+  $.getJSON('/json/2020.json', function (data) {
     console.log(data);
     var json = JSON.stringify(data);
     var parsed = JSON.parse(json);
@@ -162,7 +162,7 @@ if (document.getElementById("2020") != null) {
 
 //checking for 2019 ID
 if (document.getElementById("2019") != null) {
-  $.getJSON('/artwork/2019art.json', function (data) {
+  $.getJSON('/json/2019.json', function (data) {
     console.log(data);
     var json = JSON.stringify(data);
     var parsed = JSON.parse(json);
@@ -185,7 +185,7 @@ if (document.getElementById("2019") != null) {
 
 //checking for 2018 ID
 if (document.getElementById("2018") != null) {
-  $.getJSON('/artwork/2018art.json', function (data) {
+  $.getJSON('/json/2018.json', function (data) {
     console.log(data);
     var json = JSON.stringify(data);
     var parsed = JSON.parse(json);
@@ -208,7 +208,7 @@ if (document.getElementById("2018") != null) {
 
 //checking for 2016/2017 ID
 if (document.getElementById("20162017") != null) {
-  $.getJSON('/artwork/20162017art.json', function (data) {
+  $.getJSON('/json/20162017.json', function (data) {
     console.log(data);
     var json = JSON.stringify(data);
     var parsed = JSON.parse(json);

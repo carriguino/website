@@ -17,35 +17,30 @@
 }
 
 .archiveButton{
-    width: 100px;
-background: rgb(86, 52, 29);
   padding: 15px 25px;
   writing-mode: vertical-lr;
-  text-orientation:upright;
   text-align: center;
   display: inline-block;
   color: rgb(255, 255, 255);
   text-decoration: none;
-  font-size: 200%;
+  font-size: 350%;
   font-family: "cambria";
   object-fit: fill;
-
+    transform: translateX(37%);
   transition: 0.05s;
 }
 
 .book{
-    margin-left: -50px;
+    margin-left: -100px;
+    width: 200px;
+    background-position: center;
+    background-image: url(../imgsforhosting/book.png);
+    background-repeat: no-repeat;
 }
 
 .book:hover{
-    transform: translateY(50px);
-
-}
-
-.booktop{
-    background-color: green;
-    clip-path: polygon(0% 0%,10% 10%,20% 20%, 30% 30%);
-    width: 500px;
-    height: 100px;
+    background-image: url(../imgsforhosting/book2.png);
     
+    width: 200px;
+    z-index: 50;
 }
