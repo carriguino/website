@@ -188,8 +188,8 @@ div.centerbuttonp {
 table,
 th,
 td {
+  border: 1px solid green;
   font-size: 115%;
-  /* border: 1px solid black ; */
   font-family: "cambria";
   color: black;
   padding: 20px;
@@ -197,6 +197,7 @@ td {
   white-space: normal;
   overflow-wrap: break-word;
   justify-content: space-evenly;
+  word-break: break-word;
 
 }
 
