@@ -1,12 +1,5 @@
 <!doctype html>
 <html>
-<!-- HTML Meta Tags -->
-<title>CARRIGANREILLY.COM</title>
-<meta name="description" content="Carri's Portfolio Site for Silly Hijinks and the Like">
-
-<head>
-
-</head>
 
 <body>
     <div>
@@ -96,17 +89,17 @@
                 const stringSceneIndex = await cookieStore.get("sceneIndex");
                 sceneIndex = parseInt(stringSceneIndex.value);
                 HideAllScenes();
-                scenes[sceneIndex].style.display = "block";
-                PrintIndex();
             }
             else {
                 console.log("no scene index saved!");
+                sceneIndex = 0;
             }
+            scenes[sceneIndex].style.display = "block";
+            PrintIndex();
 
         }
 
-        function HideAllScenes()
-        {
+        function HideAllScenes() {
             scenes.forEach(element => {
                 element.style.display = "none";
             });
