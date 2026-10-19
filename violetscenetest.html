@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+<!-- HTML Meta Tags -->
+<title>CARRIGANREILLY.COM</title>
+<meta name="description" content="Carri's Portfolio Site for Silly Hijinks and the Like">
+
+<head>
+
+</head>
+
+<body>
+    <div>
+
+        <button onclick="PreviousScene()">Previous Scene</button>
+        <button onclick="NextScene()">Next Scene</button>
+
+        <div>
+            <img class="screen" id="screen1" src="https://carriganreilly.com/imgsforhosting/house1.png">
+            <img class="screen" id="screen2" src="https://carriganreilly.com/imgsforhosting/house2.png">
+            <img class="screen" id="screen3" src="https://carriganreilly.com/imgsforhosting/house3.png">
+        </div>
+
+        <button onclick="SaveScene()">Save Scene</button>
+        <button onclick="LoadScene()">Load Scene</button>
+        <h1 id="indexNum">Scene Index:</h1>
+    </div>
+
+    <style>
+        .screen {
+            /* display is set to none so they're all hidden at start */
+            display: none;
+            max-width: 800px;
+        }
+    </style>
+
+    <script>
+        let sceneIndex = 0;
+        const scenes = [document.getElementById("screen1"),
+        document.getElementById("screen2"),
+        document.getElementById("screen3")];
+
+        StartScene();
+
+        function StartScene() {
+
+            LoadScene();
+
+            //this assigns a listener that automatically runs the SaveScene function when it detects the page is being hidden (e.g. tab switching or closing)
+            addEventListener("visibilitychange", (event) => {
+                if (document.hidden) {
+                    SaveScene();
+                }
+            })
+
+            addEventListener("visibilitychange", (event) => {
+                if (!document.hidden) {
+                    LoadScene();
+                }
+            })
+        }
+
+        function NextScene() {
+            if (sceneIndex < scenes.length - 1) //if index is less than the total number of array items
+            {
+                scenes[sceneIndex].style.display = "none";
+                sceneIndex++;
+                scenes[sceneIndex].style.display = "block";
+
+            }
+            PrintIndex();
+        }
+
+        function PreviousScene() {
+            if (sceneIndex > 0) //if index is greater than 0 
+            {
+                scenes[sceneIndex].style.display = "none";
+                sceneIndex--;
+                scenes[sceneIndex].style.display = "block";
+            }
+            PrintIndex();
+        }
+
+        function SaveScene() //save the cookie
+        {
+            try {
+                cookieStore.set("sceneIndex", sceneIndex);
+            } catch (error) {
+                console.log(`error setting cookie! ${error}`);
+            }
+
+        }
+
+        async function LoadScene() {
+            if (cookieStore.get("sceneIndex") != "") {
+
+                const stringSceneIndex = await cookieStore.get("sceneIndex");
+                sceneIndex = parseInt(stringSceneIndex.value);
+                HideAllScenes();
+                scenes[sceneIndex].style.display = "block";
+                PrintIndex();
+            }
+            else {
+                console.log("no scene index saved!");
+            }
+
+        }
+
+        function HideAllScenes()
+        {
+            scenes.forEach(element => {
+                element.style.display = "none";
+            });
+        }
+
+        function PrintIndex() //writes index to screen
+        {
+            let text = `Scene Index: ${sceneIndex}`;
+            document.getElementById("indexNum").innerHTML = text;
+        }
+
+        cookieTest();
+    </script>
+</body>
+
+</html>
