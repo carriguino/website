@@ -256,7 +256,7 @@ iframe {
 }
 
 /*phones*/
-@media (max-width: 400px) {
+@media (max-width: 900px) {
 
 
   .head {
@@ -310,7 +310,7 @@ iframe {
 }
 
 /*tablets*/
-@media (min-width : 401px) and (max-width : 1000px) {
+@media (min-width : 901) and (max-width : 1000px) {
   .head {
     font-size: 400%;
   }
