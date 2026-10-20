@@ -74,4 +74,10 @@ div.aylaright{
     .aylaleft, .aylaright {
         display: none;
         }
+    .aylapromoimg{
+        display:none;
+        }
+    .aylacenter{
+        width:50%;
+        }
 }
