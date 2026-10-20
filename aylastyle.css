@@ -71,13 +71,14 @@ div.aylaright{
 
 /*phones*/
 @media (max-width: 900px) {
-    .aylaleft, .aylaright {
+    .aylaleft, .aylaright, .aylapromoimg{
         display: none;
         }
-    .aylapromoimg{
-        display:none;
+    .aylamain{
+        max-width:50%;
         }
-    .aylacenter{
-        width:50%;
+    .aylalogo {
+        max-width:30%;
         }
+    
 }
