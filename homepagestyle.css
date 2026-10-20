@@ -133,7 +133,8 @@ div.navbar {
   font-size: 200%;
   font-family: "cambria";
   border: ridge 10px hotpink;
-  object-fit: fill
+  object-fit: fill;
+  min-width: 200px;
 }
 
 .reloadbutton {
@@ -167,7 +168,7 @@ div.centerbuttonp {
   justify-content: space-evenly;
   align-self: center;
   align-items: center;
-  width: 1025px;
+  width: 70%;
   height: auto;
   margin: auto;
 }
@@ -183,6 +184,19 @@ div.centerbuttonp {
   margin: auto;
   margin-bottom: 10px;
   width: 50%;
+}
+
+.itchio {
+  width: 550px;
+  height: 165px;
+  background: lightpink;
+  text-align: center;
+  margin: 10px;
+  color: black;
+  text-decoration: none;
+  box-shadow: 0px 0 5px black;
+  border: ridge 10px hotpink;
+  object-fit: fill
 }
 
 table,
@@ -256,11 +270,7 @@ iframe {
 }
 
 /*phones*/
-@media (max-width: 900px) {
-  body {
-    overflow:hidden;
-    }
-
+@media (max-width: 450px) {
   .head {
     font-size: 300%;
   }
@@ -283,23 +293,23 @@ iframe {
   }
 
   div.centerbuttonp {
-    display: inline;
-    justify-content: center;
-    align-items: center;
-    width: 600px;
-    height: auto;
-    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    height: fit-content;
+    overflow: hidden;
   }
 
   .button {
     padding: 25px 35px;
-    margin: 20px;
+    margin: 5px;
     text-align: center;
     display: block;
     font-size: 150%;
+    width: 70%;
   }
 
-  div.navbar {
+  .navbar, .navtext {
     display: none;
   }
 
@@ -309,20 +319,32 @@ iframe {
 
   }
 
+  .itchio {
+    width: 90%;
+    height: auto;
+    background: lightpink;
+    text-align: center;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    box-shadow: 0px 0 5px black;
+    border: ridge 10px hotpink;
+  }
+
 }
 
 /*tablets*/
-@media (min-width : 901) and (max-width : 1000px) {
+@media (min-width : 451px) and (max-width : 1000px) {
   .head {
-    font-size: 400%;
+    font-size: 200%;
   }
 
   .head2 {
-    font-size: 400%;
+    font-size: 100%;
   }
 
   .subheader {
-    font-size: 150%;
+    font-size: 100%;
   }
 
   .subtitle {
@@ -336,7 +358,7 @@ iframe {
   div.centerbuttonp {
     justify-content: center;
     align-items: center;
-    width: 85%;
+    width: 100%;
     height: auto;
     margin: auto;
   }

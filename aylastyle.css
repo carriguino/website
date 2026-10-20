@@ -1,84 +1,138 @@
-div.aylamain{
-    display:flex;
+div.aylamain {
+    display: flex;
     /* border: 1px solid red; */
 }
 
-div.aylaleft{
+div.aylaleft {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-self: center;
     align-items: center;
-    width: 1025px;
     height: auto;
     margin: auto;
     /* border: 1px solid lightgreen; */
 }
 
-div.aylacenter{
+div.aylacenter {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-self: center;
     align-items: center;
-    width: 1025px;
     height: auto;
     margin: auto;
-    margin-top:-.05%;
+    margin-top: -.05%;
 }
 
-div.aylaright{
+div.aylaright {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-self: center;
     align-items: center;
-    width: 1025px;
     height: auto;
     margin: auto;
 }
 
-.aylasubheader{
+.aylasubheader {
     text-align: center;
     font-size: 250%;
     font-family: "cambria";
     color: white;
     -webkit-text-stroke: .5 black;
     text-shadow:
-    3px 3px 0 #000,
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
+        3px 3px 0 #000,
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
     margin-top: -1%;
 }
 
-.aylalogo{
-    max-width:60%;
+.aylalogo {
+    max-width: 60%;
 }
 
-.aylasprite{
+.aylasprite {
     max-height: 100%;
 }
 
-.aylapromoimg{
-    max-width:50%;
+.aylapromoimg {
+    max-width: 50%;
     margin-bottom: 4%;
     border: ridge 10px hotpink;
     box-shadow: 0px 0px 5px black;
 
 }
 
+.aylaitchio {
+    width: 50%;
+    background: lightpink;
+    padding: 25px 35px;
+    text-align: center;
+    margin: 10px;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    box-shadow: 0px 0 5px black;
+    font-size: 200%;
+    font-family: "cambria";
+    border: ridge 10px hotpink;
+    object-fit: fill
+}
+
 /*phones*/
-@media (max-width: 900px) {
-    .aylaleft, .aylaright, .aylapromoimg{
+@media (max-width: 450px) {
+
+    .aylaleft,
+    .aylaright,
+    .aylapromoimg {
         display: none;
-        }
-    .aylamain{
-        max-width:50%;
-        }
+    }
+
+    .aylamain {
+        max-width: 100%;
+    }
+
     .aylalogo {
-        max-width:30%;
-        }
-    
+        max-width: 80%;
+    }
+
+    .ayloitchio {
+        width: 75%;
+    }
+
+    .aylasubheader {
+        font-size: 150%;
+    }
+
+}
+
+@media (min-width : 451px) and (max-width : 1000px) {
+
+    .aylaleft,
+    .aylaright,
+    .aylapromoimg {
+        display: none;
+    }
+
+    .aylamain {
+        max-width: 100%;
+    }
+
+    .aylacenter{
+        width:80%;
+    }
+
+    .aylalogo {
+        max-width:70%;
+    }
+    .aylaitchio{
+        width: 80%;
+    }
+
+    .aylasubheader {
+        font-size: 200%;
+    }
 }
