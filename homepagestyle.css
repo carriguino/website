@@ -284,7 +284,7 @@ iframe {
     display: inline;
     justify-content: center;
     align-items: center;
-    width: 85%;
+    width: 60%;
     height: auto;
     margin: auto;
   }
@@ -302,7 +302,7 @@ iframe {
   }
 
   div.pinkwindow {
-    width: 90%;
+    width: 65%;
     flex-wrap: wrap;
 
   }
