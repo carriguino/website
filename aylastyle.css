@@ -70,7 +70,7 @@ div.aylaright{
 }
 
 /*phones*/
-@media (max-width: 600px) {
+@media (max-width: 900px) {
     .aylaleft, .aylaright {
         display: none;
         }
