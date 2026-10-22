@@ -123,37 +123,19 @@ div.navbar {
 
 .button {
   background: lightpink;
-  padding: 25px 35px;
+  padding: 10px 25px;
   text-align: center;
   margin: 10px;
   display: inline-block;
   color: black;
   text-decoration: none;
   box-shadow: 0px 0 5px black;
-  font-size: 200%;
+  font-size: 150%;
   font-family: "cambria";
   border: ridge 10px hotpink;
   object-fit: fill;
-  min-width: 200px;
-}
-
-.reloadbutton {
-  background: lightpink;
-  width: 25px;
-  height: 25px;
-  border-radius: 100%;
-  color: black;
-  text-decoration: none;
-  box-shadow: 0px 0 5px black;
-  font-family: "cambria";
-  border: ridge 10px hotpink;
-  float: right;
-  margin-top: -5%;
-  margin-right: 30%;
-}
-
-.reloadbutton:hover {
-  animation: rotation 1s ease infinite;
+  min-width: 100px;
+  max-width: 1500px;
 }
 
 
@@ -168,7 +150,7 @@ div.centerbuttonp {
   justify-content: space-evenly;
   align-self: center;
   align-items: center;
-  width: 70%;
+  width: 80%;
   height: auto;
   margin: auto;
 }
@@ -389,16 +371,17 @@ iframe {
 
 div.newsfeed {
   overflow: hidden;
-  background-color: rgba(0, 0, 0, 0.2);
-  border-bottom: ridge 20px hotpink;
+  background-color: rgba(0, 0, 0, 0.715);
+  border-top: ridge 20px hotpink;
   user-select: none;
+  margin-bottom: -20px;
 }
 
 .marquee {
-  margin: 50px;
+
   white-space: nowrap;
   color: white;
-  font-size: 300%;
+  font-size: 200%;
   font-family: Cambria, "Hoefler Text", "Liberation Serif", Times,
     "Times New Roman", "serif";
   text-transform: uppercase;

@@ -3,7 +3,7 @@ div.aylamain {
     /* border: 1px solid red; */
 }
 
-div.aylaleft {
+div.aylaleft, .aylaright {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -11,6 +11,7 @@ div.aylaleft {
     align-items: center;
     height: auto;
     margin: auto;
+    margin-top: 5%;
     /* border: 1px solid lightgreen; */
 }
 
@@ -22,17 +23,7 @@ div.aylacenter {
     align-items: center;
     height: auto;
     margin: auto;
-    margin-top: -.05%;
-}
-
-div.aylaright {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-self: center;
-    align-items: center;
-    height: auto;
-    margin: auto;
+    margin-top: 3%;
 }
 
 .aylasubheader {

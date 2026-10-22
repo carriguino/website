@@ -90,7 +90,8 @@ function newIntro() {
       'Breaking out the L word',
       'I\'m in lesbians with you.',
       'Scott Pilgrim is dating a high schooler!',
-      'admit it, cookie clicker rules'
+      'admit it, cookie clicker rules',
+      "could estrogen have saved her?"
     ];
 	
 	function loadIntro(){
